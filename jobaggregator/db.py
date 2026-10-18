@@ -226,6 +226,39 @@ class Database:
             out.append(d)
         return out
 
+    def count_by_group(self, *, platforms: list[str] | None = None,
+                       job_type: str = "", fresh_days: int | None = None,
+                       salary_min_k: float | None = None, search: str = "",
+                       include_archived: bool = False) -> dict[str, int]:
+        """同 query_jobs 的筛选条件（不含方向），按方向返回精确计数。"""
+        where: list[str] = []
+        args: list = []
+        if not include_archived:
+            where.append("last_status='active'")
+        if platforms:
+            where.append(f"platform IN ({','.join('?' * len(platforms))})")
+            args += platforms
+        if job_type:
+            where.append("job_type=?")
+            args.append(job_type)
+        if fresh_days is not None:
+            cutoff = (datetime.now() - timedelta(days=fresh_days)) \
+                .isoformat(timespec="seconds")
+            where.append("last_seen_at>=?")
+            args.append(cutoff)
+        if salary_min_k is not None:
+            where.append("salary_max_k>=?")
+            args.append(salary_min_k)
+        for term in (search or "").split():
+            where.append("(title LIKE ? OR company LIKE ?)")
+            args += [f"%{term}%", f"%{term}%"]
+        sql = "SELECT keyword_group, COUNT(*) AS n FROM jobs"
+        if where:
+            sql += " WHERE " + " AND ".join(where)
+        sql += " GROUP BY keyword_group"
+        return {r["keyword_group"] or "未分组": r["n"]
+                for r in self.conn.execute(sql, args).fetchall()}
+
     def stats(self) -> dict:
         """顶部指标：在招总数 / 今日新增 / 公司数。"""
         row = self.conn.execute(
