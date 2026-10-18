@@ -1,0 +1,78 @@
+2026-10-18 09:30:06,532 INFO jobaggregator.browser 浏览器引擎就绪（channel=chrome, headless=False）
+2026-10-18 09:30:10,059 INFO jobaggregator.pipeline [liepin] 财务分析/FP&A / 财务分析：40 条（新 19，更新 21）
+2026-10-18 09:30:42,840 WARNING jobaggregator.scrapers.liepin [liepin] 页面/接口第 1 次加载失败：TimeoutError('Timeout 25000ms exceeded while waiting for event "response"')
+2026-10-18 09:31:07,866 WARNING jobaggregator.scrapers.liepin [liepin] 页面/接口第 2 次加载失败：TimeoutError('Timeout 25000ms exceeded while waiting for event "response"')
+2026-10-18 09:31:32,880 WARNING jobaggregator.scrapers.liepin [liepin] 页面/接口第 3 次加载失败：TimeoutError('Timeout 25000ms exceeded while waiting for event "response"')
+2026-10-18 09:31:32,880 ERROR jobaggregator.pipeline [liepin] 关键词「FP&A」抓取失败：ScraperError('[liepin] 打开页面或捕获接口失败：TimeoutError(\'Timeout 25000ms exceeded while waiting for event "response"\')')
+2026-10-18 09:31:57,903 WARNING jobaggregator.scrapers.liepin [liepin] 页面/接口第 1 次加载失败：TimeoutError('Timeout 25000ms exceeded while waiting for event "response"')
+2026-10-18 09:32:22,915 WARNING jobaggregator.scrapers.liepin [liepin] 页面/接口第 2 次加载失败：TimeoutError('Timeout 25000ms exceeded while waiting for event "response"')
+2026-10-18 09:32:47,931 WARNING jobaggregator.scrapers.liepin [liepin] 页面/接口第 3 次加载失败：TimeoutError('Timeout 25000ms exceeded while waiting for event "response"')
+2026-10-18 09:32:47,931 ERROR jobaggregator.pipeline [liepin] 关键词「经营分析」抓取失败：ScraperError('[liepin] 打开页面或捕获接口失败：TimeoutError(\'Timeout 25000ms exceeded while waiting for event "response"\')')
+2026-10-18 09:33:12,961 WARNING jobaggregator.scrapers.liepin [liepin] 页面/接口第 1 次加载失败：TimeoutError('Timeout 25000ms exceeded while waiting for event "response"')
+2026-10-18 09:33:37,970 WARNING jobaggregator.scrapers.liepin [liepin] 页面/接口第 2 次加载失败：TimeoutError('Timeout 25000ms exceeded while waiting for event "response"')
+2026-10-18 09:34:02,978 WARNING jobaggregator.scrapers.liepin [liepin] 页面/接口第 3 次加载失败：TimeoutError('Timeout 25000ms exceeded while waiting for event "response"')
+2026-10-18 09:34:02,979 ERROR jobaggregator.pipeline [liepin] 关键词「会计」抓取失败：ScraperError('[liepin] 打开页面或捕获接口失败：TimeoutError(\'Timeout 25000ms exceeded while waiting for event "response"\')')
+2026-10-18 09:34:28,000 WARNING jobaggregator.scrapers.liepin [liepin] 页面/接口第 1 次加载失败：TimeoutError('Timeout 25000ms exceeded while waiting for event "response"')
+2026-10-18 09:34:53,011 WARNING jobaggregator.scrapers.liepin [liepin] 页面/接口第 2 次加载失败：TimeoutError('Timeout 25000ms exceeded while waiting for event "response"')
+2026-10-18 09:35:18,008 WARNING jobaggregator.scrapers.liepin [liepin] 页面/接口第 3 次加载失败：TimeoutError('Timeout 25000ms exceeded while waiting for event "response"')
+2026-10-18 09:35:18,008 ERROR jobaggregator.pipeline [liepin] 关键词「总账会计」抓取失败：ScraperError('[liepin] 打开页面或捕获接口失败：TimeoutError(\'Timeout 25000ms exceeded while waiting for event "response"\')')
+2026-10-18 09:35:43,033 WARNING jobaggregator.scrapers.liepin [liepin] 页面/接口第 1 次加载失败：TimeoutError('Timeout 25000ms exceeded while waiting for event "response"')
+2026-10-18 09:36:08,045 WARNING jobaggregator.scrapers.liepin [liepin] 页面/接口第 2 次加载失败：TimeoutError('Timeout 25000ms exceeded while waiting for event "response"')
+2026-10-18 09:36:33,054 WARNING jobaggregator.scrapers.liepin [liepin] 页面/接口第 3 次加载失败：TimeoutError('Timeout 25000ms exceeded while waiting for event "response"')
+2026-10-18 09:36:33,055 ERROR jobaggregator.pipeline [liepin] 关键词「核算会计」抓取失败：ScraperError('[liepin] 打开页面或捕获接口失败：TimeoutError(\'Timeout 25000ms exceeded while waiting for event "response"\')')
+2026-10-18 09:36:58,088 WARNING jobaggregator.scrapers.liepin [liepin] 页面/接口第 1 次加载失败：TimeoutError('Timeout 25000ms exceeded while waiting for event "response"')
+2026-10-18 09:37:23,082 WARNING jobaggregator.scrapers.liepin [liepin] 页面/接口第 2 次加载失败：TimeoutError('Timeout 25000ms exceeded while waiting for event "response"')
+2026-10-18 09:37:48,101 WARNING jobaggregator.scrapers.liepin [liepin] 页面/接口第 3 次加载失败：TimeoutError('Timeout 25000ms exceeded while waiting for event "response"')
+2026-10-18 09:37:48,101 ERROR jobaggregator.pipeline [liepin] 关键词「税务专员」抓取失败：ScraperError('[liepin] 打开页面或捕获接口失败：TimeoutError(\'Timeout 25000ms exceeded while waiting for event "response"\')')
+2026-10-18 09:38:13,111 WARNING jobaggregator.scrapers.liepin [liepin] 页面/接口第 1 次加载失败：TimeoutError('Timeout 25000ms exceeded while waiting for event "response"')
+2026-10-18 09:38:38,133 WARNING jobaggregator.scrapers.liepin [liepin] 页面/接口第 2 次加载失败：TimeoutError('Timeout 25000ms exceeded while waiting for event "response"')
+2026-10-18 09:39:03,141 WARNING jobaggregator.scrapers.liepin [liepin] 页面/接口第 3 次加载失败：TimeoutError('Timeout 25000ms exceeded while waiting for event "response"')
+2026-10-18 09:39:03,141 ERROR jobaggregator.pipeline [liepin] 关键词「税务会计」抓取失败：ScraperError('[liepin] 打开页面或捕获接口失败：TimeoutError(\'Timeout 25000ms exceeded while waiting for event "response"\')')
+2026-10-18 09:39:28,163 WARNING jobaggregator.scrapers.liepin [liepin] 页面/接口第 1 次加载失败：TimeoutError('Timeout 25000ms exceeded while waiting for event "response"')
+2026-10-18 09:39:53,174 WARNING jobaggregator.scrapers.liepin [liepin] 页面/接口第 2 次加载失败：TimeoutError('Timeout 25000ms exceeded while waiting for event "response"')
+2026-10-18 09:40:18,187 WARNING jobaggregator.scrapers.liepin [liepin] 页面/接口第 3 次加载失败：TimeoutError('Timeout 25000ms exceeded while waiting for event "response"')
+2026-10-18 09:40:18,187 ERROR jobaggregator.pipeline [liepin] 关键词「财务实习」抓取失败：ScraperError('[liepin] 打开页面或捕获接口失败：TimeoutError(\'Timeout 25000ms exceeded while waiting for event "response"\')')
+2026-10-18 09:40:43,211 WARNING jobaggregator.scrapers.liepin [liepin] 页面/接口第 1 次加载失败：TimeoutError('Timeout 25000ms exceeded while waiting for event "response"')
+2026-10-18 09:41:08,226 WARNING jobaggregator.scrapers.liepin [liepin] 页面/接口第 2 次加载失败：TimeoutError('Timeout 25000ms exceeded while waiting for event "response"')
+2026-10-18 09:41:33,232 WARNING jobaggregator.scrapers.liepin [liepin] 页面/接口第 3 次加载失败：TimeoutError('Timeout 25000ms exceeded while waiting for event "response"')
+2026-10-18 09:41:33,232 ERROR jobaggregator.pipeline [liepin] 关键词「会计实习」抓取失败：ScraperError('[liepin] 打开页面或捕获接口失败：TimeoutError(\'Timeout 25000ms exceeded while waiting for event "response"\')')
+2026-10-18 09:41:58,276 WARNING jobaggregator.scrapers.liepin [liepin] 页面/接口第 1 次加载失败：TimeoutError('Timeout 25000ms exceeded while waiting for event "response"')
+2026-10-18 09:42:23,276 WARNING jobaggregator.scrapers.liepin [liepin] 页面/接口第 2 次加载失败：TimeoutError('Timeout 25000ms exceeded while waiting for event "response"')
+2026-10-18 09:42:48,296 WARNING jobaggregator.scrapers.liepin [liepin] 页面/接口第 3 次加载失败：TimeoutError('Timeout 25000ms exceeded while waiting for event "response"')
+2026-10-18 09:42:48,296 ERROR jobaggregator.pipeline [liepin] 关键词「税务实习」抓取失败：ScraperError('[liepin] 打开页面或捕获接口失败：TimeoutError(\'Timeout 25000ms exceeded while waiting for event "response"\')')
+2026-10-18 09:43:13,327 WARNING jobaggregator.scrapers.liepin [liepin] 页面/接口第 1 次加载失败：TimeoutError('Timeout 25000ms exceeded while waiting for event "response"')
+2026-10-18 09:43:38,360 WARNING jobaggregator.scrapers.liepin [liepin] 页面/接口第 2 次加载失败：TimeoutError('Timeout 25000ms exceeded while waiting for event "response"')
+2026-10-18 09:44:03,380 WARNING jobaggregator.scrapers.liepin [liepin] 页面/接口第 3 次加载失败：TimeoutError('Timeout 25000ms exceeded while waiting for event "response"')
+2026-10-18 09:44:03,380 ERROR jobaggregator.pipeline [liepin] 关键词「财务BP AI」抓取失败：ScraperError('[liepin] 打开页面或捕获接口失败：TimeoutError(\'Timeout 25000ms exceeded while waiting for event "response"\')')
+2026-10-18 09:44:28,404 WARNING jobaggregator.scrapers.liepin [liepin] 页面/接口第 1 次加载失败：TimeoutError('Timeout 25000ms exceeded while waiting for event "response"')
+2026-10-18 09:44:53,423 WARNING jobaggregator.scrapers.liepin [liepin] 页面/接口第 2 次加载失败：TimeoutError('Timeout 25000ms exceeded while waiting for event "response"')
+2026-10-18 09:45:18,431 WARNING jobaggregator.scrapers.liepin [liepin] 页面/接口第 3 次加载失败：TimeoutError('Timeout 25000ms exceeded while waiting for event "response"')
+2026-10-18 09:45:18,431 ERROR jobaggregator.pipeline [liepin] 关键词「智能财务」抓取失败：ScraperError('[liepin] 打开页面或捕获接口失败：TimeoutError(\'Timeout 25000ms exceeded while waiting for event "response"\')')
+2026-10-18 09:45:33,233 ERROR jobaggregator.pipeline [job51] 关键词「财务分析」抓取失败：JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2026-10-18 09:45:34,513 INFO jobaggregator.pipeline [job51] 财务分析/FP&A / FP&A：20 条（新 3，更新 17）
+2026-10-18 09:45:40,617 INFO jobaggregator.pipeline [job51] 财务分析/FP&A / 经营分析：20 条（新 1，更新 19）
+2026-10-18 09:45:49,459 INFO jobaggregator.pipeline [job51] 会计/核算 / 会计：20 条（新 18，更新 2）
+2026-10-18 09:45:57,413 INFO jobaggregator.pipeline [job51] 会计/核算 / 总账会计：20 条（新 5，更新 15）
+2026-10-18 09:46:06,123 INFO jobaggregator.pipeline [job51] 会计/核算 / 核算会计：20 条（新 0，更新 20）
+2026-10-18 09:46:13,122 INFO jobaggregator.pipeline [job51] 税务方向 / 税务专员：20 条（新 3，更新 17）
+2026-10-18 09:46:18,744 INFO jobaggregator.pipeline [job51] 税务方向 / 税务会计：20 条（新 2，更新 18）
+2026-10-18 09:46:26,656 INFO jobaggregator.pipeline [job51] 实习/校招 / 财务实习：20 条（新 1，更新 19）
+2026-10-18 09:46:34,181 INFO jobaggregator.pipeline [job51] 实习/校招 / 会计实习：20 条（新 0，更新 20）
+2026-10-18 09:46:40,038 INFO jobaggregator.pipeline [job51] 实习/校招 / 税务实习：20 条（新 3，更新 17）
+2026-10-18 09:46:48,526 INFO jobaggregator.pipeline [job51] AI财务/AI应用 / 财务BP AI：20 条（新 3，更新 17）
+2026-10-18 09:46:56,685 INFO jobaggregator.pipeline [job51] AI财务/AI应用 / 智能财务：20 条（新 7，更新 13）
+2026-10-18 09:47:03,884 INFO jobaggregator.pipeline [zhaopin] 财务分析/FP&A / 财务分析：20 条（新 20，更新 0）
+2026-10-18 09:47:09,881 INFO jobaggregator.pipeline [zhaopin] 财务分析/FP&A / FP&A：20 条（新 19，更新 1）
+2026-10-18 09:47:16,021 INFO jobaggregator.pipeline [zhaopin] 财务分析/FP&A / 经营分析：20 条（新 16，更新 4）
+2026-10-18 09:47:22,153 INFO jobaggregator.pipeline [zhaopin] 会计/核算 / 会计：20 条（新 16，更新 4）
+2026-10-18 09:47:29,078 INFO jobaggregator.pipeline [zhaopin] 会计/核算 / 总账会计：20 条（新 5，更新 15）
+2026-10-18 09:47:35,760 INFO jobaggregator.pipeline [zhaopin] 会计/核算 / 核算会计：20 条（新 5，更新 15）
+2026-10-18 09:47:43,220 INFO jobaggregator.pipeline [zhaopin] 税务方向 / 税务专员：20 条（新 0，更新 20）
+2026-10-18 09:47:50,926 INFO jobaggregator.pipeline [zhaopin] 税务方向 / 税务会计：20 条（新 4，更新 16）
+2026-10-18 09:47:56,785 INFO jobaggregator.pipeline [zhaopin] 实习/校招 / 财务实习：20 条（新 4，更新 16）
+2026-10-18 09:48:03,079 INFO jobaggregator.pipeline [zhaopin] 实习/校招 / 会计实习：20 条（新 1，更新 19）
+2026-10-18 09:48:10,290 INFO jobaggregator.pipeline [zhaopin] 实习/校招 / 税务实习：20 条（新 1，更新 19）
+2026-10-18 09:48:15,418 INFO jobaggregator.pipeline [zhaopin] AI财务/AI应用 / 财务BP AI：4 条（新 0，更新 4）
+2026-10-18 09:48:24,220 INFO jobaggregator.pipeline [zhaopin] AI财务/AI应用 / 智能财务：20 条（新 6，更新 14）
+2026-10-18 09:48:32,187 INFO jobaggregator.browser 真实 Chrome 已启动（独立目录，端口 9333）
+2026-10-18 09:48:34,224 WARNING jobaggregator.pipeline [zhipin] 登录态失效：BOSS 登录态失效或触发安全验证：请运行 scripts/login_zhipin.py 重新登录（跳过该平台剩余关键词）

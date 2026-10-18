@@ -1,0 +1,326 @@
+[
+  {
+    "url": "https://apmplus.volces.com/settings/get/webpro?aid=460715",
+    "status": 200,
+    "request": {
+      "method": "GET",
+      "post_data": null
+    },
+    "body_head": "{\"err_detail\": \"\", \"data\": {\"sample\": {\"sample_rate\": 1, \"include_users\": [], \"sample_granularity\": \"session\", \"rules\": [{\"name\": \"js_error\", \"enable\": true, \"sample_rate\": 1, \"conditional_sample_rules\": [{\"sample_rate\": 0, \"filter\": {\"type\": \"and\", \"children\": [{\"type\": \"rule\", \"field\": \"payload.error.message\", \"op\": \"eq\", \"groupKey\": \"\", \"values\": [\"出错了（400）！\"]}]}}, {\"sample_rate\": 0, \"filter\": {\"type\": \"and\", \"children\": [{\"type\": \"or\", \"children\": [{\"type\": \"rule\", \"field\": \"payload.error.message\", \"op\": \"eq\", \"groupKey\": \"\", \"values\": [\"Script error.\"]}, {\"type\": \"or\", \"children\": [{\"type\": \"rule\", \"field\": \"payload.error.message\", \"op\": \"eq\", \"groupKey\": \"\", \"values\": [\"Request failed with status code 404\"]}, {\"type\": \"or\", \"children\": [{\"type\": \"rule\", \"field\": \"payload.error.message\", \"op\": \"eq\", \"groupKey\": \"\", \"values\": [\"Network Error\"]}, {\"type\": \"or\", \"children\": [{\"type\": \"rule\", \"field\": \"payload.error.message\", \"op\": \"eq\", \"groupKey\": \"\", \"values\": [\"Request failed with status code 502\"]}, {\"type\": \"or\", \"children\": [{\"type\": \"rule\", \"field\": \"payload.error.message\", \"op\": \"eq\", \"groupKey\": \"\", \"values\": [\"[object Object]\"]}, {\"type\": \"or\", \"children\": [{\"type\": \"rule\", \"field\": \"payload.error.message\", \"op\": \"eq\", \"groupKey\": \"\", \"values\": [\"Unexpected token ';'\"]}, {\"type\": \"or\", \"children\": [{\"type\": \"rule\", \"field\": \"payload.error.message\", \"op\": \"eq\", \"groupKey\": \"\", \"values\": [\"Request failed with status code 504\"]}, {\"type\": \"or\", \"children\": [{\"type\": \"rule\", \"field\": \"payload.error.message\", \"op\": \"eq\", \"groupKey\": \"\", \"values\": [\"[Error]Network Error\"]}, {\"type\": \"or\", \"children\": [{\"type\": \"rule\", \"field\": \"payload.error.message\", \"op\": \"eq\", \"groupKey\": \"\", \"values\": [\"前端自定义错误信息：flag是1但是data是null。 res值：null\"]}, {\"type\": \"or\", \"children\": [{\"type\": \"rule\", \"field\": \"payload.error.message\", \"op\": \"eq\", \"groupKey\": \"\", \"values\": [\"表单校验失败\"]}, {\"type\": \"or\", \"children\": [{\"type\": \"rule\", \"field\": \"payload.error.message\", \"op\": \"eq\", \"groupKey\": \"\", \"values\": [\"timeout of 30000ms exceeded\"]}, {\"type\": \"or\", \"children\": [{\"type\": \"rule\", \"field\": \"payload.error.message\", \"op\": \"eq\", \"groupKey\": \"\", \"values\": [\"Error: Error: Network Error\"]}, {\"type\": \"or\", \"children\": [{\"type\": \"rule\", \"field\": \"payload.error.message\", \"op\": \"eq\", \"groupKey\": \"\", \"values\": [\"e is not a function\"]}, {\"type\": \"or\", \"children\": [{\"type\": \"rule\", \"field\": \"payload.error.message\", \"op\": \"eq\", \"groupKey\": \"\", \"values\": [\"globalThis is not defined\"]}, {\"type\": \"or\", \"children\": [{\"type\": \"rule\", \"field\": \"payload.error.message\", \"op\": \"eq\", \"groupKey\": \"\", \"values\": [\"Error: Error: 出错了（400）！\"]}, {\"type\": \"or\", \"children\": [{\"type\": \"rule\", \"field\": \"payload.error.message\", \"op\": \"eq\", \"groupKey\": \"\", \"values\": [\"document.querySelector(...) is null\"]}, {\"type\": \"or\", \"children\": [{\"type\": \"rule\", \"field\": \"payload.error.message\", \"op\": \"eq\", \"groupKey\": \"\", \"values\": [\"Error: Error: timeout of 30000ms exceeded\"]}, {\"type\": \"or\", \"children\": [{\"type\": \"rule\", \"field\": \"payload.error.message\", \"op\": \"eq\", \"groupKey\": \"\", \"values\": [\"Request aborted\"]}, {\"type\": \"or\", \"children\": [{\"type\": \"rule\", \"field\": \"payload.error.message\", \"op\": \"eq\", \"groupKey\": \"\", \"values\": [\"$ is not defined\"]}, {\"type\": \"or\", \"children\": [{\"type\": \"rule\", \"field\": \"payload.error.message\", \"op\": \"eq\", \"groupKey\": \"\", \"values\": [\"Error: Error: Request aborted\"]}, {\"type\": \"rule\", \"field\": \"payload.error.message\", \"op\": \"eq\", \"groupKey\": \"\", \"values\": [\"Error: Network Error\"]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}}, {\"sample_rate\": 0, \"filter\": {\"type\": \"and\", \"children\": [{\"type\": \"or\", \"children\": [{\"type\": \"rule\", \"field\": \"payload.error.message\", \"op\": \"eq\", \"groupKey\": \"\", \"values\": [\"opts is not defined\"]}, {\"type\": \"or\", \"children\": [{\"type\": \"rule\", \"field\": \"payload.error.message\", \"op\": \"eq\", \"groupKey\": \"\", \"values\": [\"n is not a function\"]}, {\"type\": \"or\", \"children\": [{\"type\": \"rule\", \"field\": \"payload.error.message\", \"op\": \"eq\", \"groupKey\""
+  },
+  {
+    "url": "https://statistic.liepin.com/statisticPlatform/standardTLog.json",
+    "status": 200,
+    "request": {
+      "method": "POST",
+      "post_data": "{\"data\":{\"commonInfo\":{\"resolution\":\"1440X900\",\"businessId\":\"\"},\"ver\":\"3.0\",\"events\":[{\"eventType\":\"p\",\"std\":{\"timestamp\":1791986017925,\"sessionId\":\"1791986017918.89\",\"eventSeq\":1,\"pgSeq\":1,\"uuid\":\"1791986017911.01\",\"pageMd5\":\"3fdbcc47b9fbea6adc1cb0495e35c1ff\",\"url\":\"https://wow.liepin.com/t1009027/index.html\",\"refer\":\"https://www.liepin.com/\"},\"spm\":{\"page\":\"$auto_https://wow.liepin.com/t1009027/index.html\",\"elem\":\"\"},\"scm\":{},\"pgRef\":\"\",\"ext\":{}}]}}"
+    },
+    "body_head": "{\"data\": \"success\", \"flag\": 1}"
+  },
+  {
+    "url": "https://statistic.liepin.com/statisticPlatform/standardTLog.json",
+    "status": 200,
+    "request": {
+      "method": "POST",
+      "post_data": "{\"data\":{\"commonInfo\":{\"resolution\":\"1440X900\",\"businessId\":\"15378aab5b9\"},\"ver\":\"3.0\",\"events\":[{\"eventType\":\"p\",\"std\":{\"timestamp\":1791986018334,\"sessionId\":\"1791986017918.89\",\"eventSeq\":2,\"pgSeq\":2,\"uuid\":\"1791986017911.01\",\"pageMd5\":\"494778cd4918a42d6620ddfc9b527efd\",\"url\":\"https://www.liepin.com/zhaopin/?key=%E8%B4%A2%E5%8A%A1%E5%88%86%E6%9E%90\",\"refer\":\"\"},\"spm\":{\"page\":\"c_pc_search_page\",\"elem\":\"\"},\"scm\":{},\"pgRef\":\"\",\"ext\":{}}]}}"
+    },
+    "body_head": "{\"data\": \"success\", \"flag\": 1}"
+  },
+  {
+    "url": "https://api-wanda.liepin.com/api/com.liepin.cbp.baizhong.op.v2-show-4pc",
+    "status": 200,
+    "request": {
+      "method": "POST",
+      "post_data": "opCode=lp_c_202304104"
+    },
+    "body_head": "{\"flag\": 1, \"data\": {\"adList\": [], \"opType\": \"2\", \"multipleGraph\": 1, \"navigationPoint\": \"1\", \"widthRatio\": \"\", \"swiperStyle\": 1, \"opCode\": \"lp_c_202304104\"}}"
+  },
+  {
+    "url": "https://api-c.liepin.com/api/com.liepin.searchfront4c.pc-search-job-cond-init",
+    "status": 200,
+    "request": {
+      "method": "POST",
+      "post_data": "selectedDqCode=410"
+    },
+    "body_head": "{\"flag\": 1, \"data\": {\"yearSalaries\": [{\"code\": \"1\", \"name\": \"10万以下\"}, {\"code\": \"2\", \"name\": \"10-15万\"}, {\"code\": \"3\", \"name\": \"16-20万\"}, {\"code\": \"4\", \"name\": \"21-30万\"}, {\"code\": \"5\", \"name\": \"31-50万\"}, {\"code\": \"6\", \"name\": \"51-100万\"}, {\"code\": \"7\", \"name\": \"100万以上\"}], \"jobKinds\": [{\"code\": \"1\", \"name\": \"猎头职位\"}, {\"code\": \"2\", \"name\": \"企业职位\"}], \"dqs\": [], \"industries\": [{\"children\": [{\"code\": \"H01\", \"name\": \"不限\"}, {\"code\": \"H0001\", \"name\": \"游戏\"}, {\"code\": \"H0002\", \"name\": \"电子商务\"}, {\"code\": \"H0003\", \"name\": \"新零售\"}, {\"code\": \"H0004\", \"name\": \"在线社交/媒体\"}, {\"code\": \"H0005\", \"name\": \"生活服务O2O\"}, {\"code\": \"H0006\", \"name\": \"在线教育\"}, {\"code\": \"H0007\", \"name\": \"互联网医疗\"}, {\"code\": \"H0008\", \"name\": \"云计算/大数据\"}, {\"code\": \"H0009\", \"name\": \"人工智能\"}, {\"code\": \"H0010\", \"name\": \"物联网\"}, {\"code\": \"H0011\", \"name\": \"区块链\"}, {\"code\": \"H0012\", \"name\": \"网络/信息安全\"}, {\"code\": \"H0013\", \"name\": \"计算机软件\"}, {\"code\": \"H0014\", \"name\": \"计算机硬件\"}, {\"code\": \"H0015\", \"name\": \"智能硬件/消费电子\"}, {\"code\": \"H0016\", \"name\": \"IT服务\"}, {\"code\": \"H0017\", \"name\": \"互联网\"}, {\"code\": \"H0123\", \"name\": \"自动驾驶\"}, {\"code\": \"H0124\", \"name\": \"具身智能与机器人\"}], \"code\": \"H01\", \"name\": \"AI/互联网/IT\"}, {\"children\": [{\"code\": \"H02\", \"name\": \"不限\"}, {\"code\": \"H0018\", \"name\": \"电子/半导体/集成电路\"}, {\"code\": \"H0019\", \"name\": \"智能硬件/消费电子\"}, {\"code\": \"H0020\", \"name\": \"运营商/增值服务\"}, {\"code\": \"H0021\", \"name\": \"通信设备\"}], \"code\": \"H02\", \"name\": \"电子/通信/半导体\"}, {\"children\": [{\"code\": \"H03\", \"name\": \"不限\"}, {\"code\": \"H0022\", \"name\": \"房地产开发经营\"}, {\"code\": \"H0023\", \"name\": \"房地产租赁/中介\"}, {\"code\": \"H0024\", \"name\": \"物业/商业管理\"}, {\"code\": \"H0025\", \"name\": \"建材\"}, {\"code\": \"H0026\", \"name\": \"工程管理/勘察/监理\"}, {\"code\": \"H0027\", \"name\": \"建筑/工程设计\"}, {\"code\": \"H0028\", \"name\": \"工程施工\"}, {\"code\": \"H0029\", \"name\": \"装饰装修\"}], \"code\": \"H03\", \"name\": \"房地产/建筑\"}, {\"children\": [{\"code\": \"H04\", \"name\": \"不限\"}, {\"code\": \"H0030\", \"name\": \"银行\"}, {\"code\": \"H0031\", \"name\": \"保险\"}, {\"code\": \"H0032\", \"name\": \"基金/证券/期货\"}, {\"code\": \"H0033\", \"name\": \"资产管理\"}, {\"code\": \"H0034\", \"name\": \"担保/拍卖/典当\"}, {\"code\": \"H0035\", \"name\": \"信托\"}, {\"code\": \"H0036\", \"name\": \"科技金融\"}, {\"code\": \"H0037\", \"name\": \"融资租赁/保理\"}, {\"code\": \"H0038\", \"name\": \"其他金融\"}], \"code\": \"H04\", \"name\": \"金融\"}, {\"children\": [{\"code\": \"H05\", \"name\": \"不限\"}, {\"code\": \"H0039\", \"name\": \"食品/饮料/酒水\"}, {\"code\": \"H0040\", \"name\": \"日化\"}, {\"code\": \"H0041\", \"name\": \"烟草\"}, {\"code\": \"H0042\", \"name\": \"服装/纺织/皮革\"}, {\"code\": \"H0043\", \"name\": \"家具/家居\"}, {\"code\": \"H0044\", \"name\": \"家电\"}, {\"code\": \"H0045\", \"name\": \"办公用品/设备\"}, {\"code\": \"H0046\", \"name\": \"工艺品\"}, {\"code\": \"H0047\", \"name\": \"珠宝/首饰\"}, {\"code\": \"H0048\", \"name\": \"文娱用品/器材\"}, {\"code\": \"H0049\", \"name\": \"日用杂品\"}], \"code\": \"H05\", \"name\": \"消费品\"}, {\"children\": [{\"code\": \"H06\", \"name\": \"不限\"}, {\"code\": \"H0050\", \"name\": \"制药\"}, {\"code\": \"H0051\", \"name\": \"生物技术\"}, {\"code\": \"H0052\", \"name\": \"医疗器械\"}, {\"code\": \"H0053\", \"name\": \"医疗机构\"}, {\"code\": \"H0054\", \"name\": \"医药流通\"}, {\"code\": \"H0055\", \"name\": \"医药外包\"}], \"code\": \"H06\", \"name\": \"医疗健康\"}, {\"children\": [{\"code\": \"H07\", \"name\": \"不限\"}, {\"code\": \"H0056\", \"name\": \"汽车零部件及配件\"}, {\"code\": \"H0057\", \"name\": \"整车制造\"}, {\"code\": \"H0058\", \"name\": \"新能源汽车\"}, {\"code\": \"H0059\", \"name\": \"汽车交易/后市场\"}, {\"code\": \"H0122\", \"name\": \"自动驾驶\"}], \"code\": \"H07\", \"name\": \"汽车\"}, {\"children\": [{\"code\": \"H08\", \"name\": \"不限\"}, {\"code\": \"H0060\", \"name\": \"机械/设备\"}, {\"code\": \"H0061\", \"name\": \"电气机械/器材\"}, {\"code\": \"H0062\", \"name\": \"仪器仪表\"}, {\"code\": \"H0063\", \"name\": \"轨道交通/船舶设备\"}, {\"code\": \"H0064\", \"name\": \"航空/航天设备\"}, {\"code\": \"H0065\", \"name\": \"新材料\"}, {\"code\": \"H0066\", \"name\": \"金属制品\"}, {\"code\": \"H0067\", \"name\": \"非金属矿物制品\"}, {\"code\": \"H0068\", \"name\": \"橡胶/塑料制品\"}, {\"code\": \"H0069\", \"name\": \"印刷/包装/造纸\"}, {\"code\": \"H0070\", \"name\": \"工业自动化\"}, {\"code\": \"H0071\", \"name\": \"家电\"}, {\"code\": \"H0072\", \"name\": \"家具/家居\"}, {\"code\": \"H0073\", \"name\": \"其他制造业\"}, {\"code\": \"H0125\", \"name\": \"低空经济\"}], \"code\": \"H08\", \"name\": \"机械/制造\"}, {\"children\": [{\"code\": \"H09\", \"name\": \"不限\"}, {\"code\": \"H0074\", \"name\": \"学前教育\"}, {\"code\": \"H0075\", \"name\": \"学校教育\"}, {\"code\": \"H0076\", \"name\": \"培训服务\"}, {\"code\": \"H0077\", \"name\": \"其他教育培训\"}, {\"code\": \"H0086\", \"n"
+  },
+  {
+    "url": "https://api-c.liepin.com/api/com.liepin.searchfront4c.pc-search-job",
+    "status": 200,
+    "request": {
+      "method": "POST",
+      "post_data": "{\"data\":{\"mainSearchPcConditionForm\":{\"city\":\"410\",\"dq\":\"410\",\"pubTime\":\"\",\"currentPage\":0,\"pageSize\":40,\"key\":\"财务分析\",\"suggestTag\":\"\",\"workYearCode\":\"\",\"compId\":\"\",\"compName\":\"\",\"compTag\":\"\",\"industry\":\"\",\"salaryCode\":\"\",\"jobKind\":\"\",\"compScale\":\"\",\"compKind\":\"\",\"compStage\":\"\",\"eduLevel\":\"\",\"salaryLow\":\"\",\"salaryHigh\":\"\"},\"passThroughForm\":{\"scene\":\"init\",\"skId\":\"\",\"fkId\":\"\",\"ckId\":\"f5wlumpni8te3v98xtghuz8c8xqrw5d8\",\"suggest\":null}}}"
+    },
+    "body_head": "{\"flag\": 1, \"data\": {\"data\": {\"jobSubscribeInfo\": {\"keyword\": \"财务分析\", \"dqCode\": \"410\", \"qrUrl\": \"https://mp.weixin.qq.com/cgi-bin/showqrcode?ticket=gQG_8DwAAAAAAAAAAS5odHRwOi8vd2VpeGluLnFxLmNvbS9xLzAydjNQRjF6Rm9jdWoxTk9EbzFHY1UAAgTy7M5qAwSAOgkA\", \"dqName\": \"全国\", \"id\": \"96b413c4d4e75a6a376556280c3bb627\"}, \"compList\": [], \"jobCardList\": [{\"comp\": {\"compScale\": \"50-99人\", \"compIndustry\": \"电子商务\", \"compId\": 21337895, \"compLogo\": \"69128e211b54b200c570f2e608u.png\", \"compName\": \"中境(宁波)电子科技有限公司深圳分公司\", \"link\": \"https://www.liepin.com/company/21337895/\"}, \"dataParams\": \"{\\\"userId\\\":\\\"8a9ddcd2b7c37b7c4599ec45ab64bb40\\\",\\\"jobId\\\":\\\"86076877\\\",\\\"jobKind\\\":\\\"2\\\",\\\"recruiterName\\\":\\\"黄女士\\\",\\\"imId\\\":\\\"b3c24dcaf0fe7a5a2aa8e4d6edc77f27\\\",\\\"imUserType\\\":\\\"2\\\",\\\"recruiterPhoto\\\":\\\"5f8f98648dbe6273dcf8515508u.jpg\\\"}\", \"dataInfo\": \"%7B%22ckId%22%3A%22f5wlumpni8te3v98xtghuz8c8xqrw5d8%22%2C%22skId%22%3A%22f5wlumpni8te3v98xtghuz8c8xqrw5d8%22%2C%22fkId%22%3A%22f5wlumpni8te3v98xtghuz8c8xqrw5d8%22%2C%22scene%22%3A%22init%22%2C%22pageSize%22%3A%2240%22%2C%22curPage%22%3A%220%22%2C%22jobId%22%3A%2286076877%22%2C%22jobKind%22%3A%222%22%2C%22sfrom%22%3A%22search_job_pc%22%2C%22d_curPage%22%3A%220%22%2C%22d_pageSize%22%3A%2240%22%2C%22as_from%22%3A%22search_prime%22%7D\", \"job\": {\"labels\": [], \"g\": \"kqaa8lsgwvp8t2c1ofkqg8lqv9zy3imj\", \"requireWorkYears\": \"2年以上\", \"salary\": \"8-12k\", \"pcOuterLink\": \"\", \"h5OuterLink\": \"\", \"dq\": \"深圳-龙岗区\", \"jobId\": \"86076877\", \"jobKind\": \"2\", \"title\": \"财务分析专员/财务BP专员/跨境电商/双休\", \"refreshTime\": \"20261013110410\", \"j\": \"be71py7mrljdqtsngyb78m8unuk36dcl\", \"topJob\": true, \"link\": \"https://www.liepin.com/job/1986076877.shtml\", \"advViewFlag\": true, \"dataPromId\": \"d_sfrom=search_prime&d_ckId=null&d_curPage=0&d_pageSize=40&d_headId=null&d_posi=0&skId=f5wlumpni8te3v98xtghuz8c8xqrw5d8&fkId=f5wlumpni8te3v98xtghuz8c8xqrw5d8&ckId=f5wlumpni8te3v98xtghuz8c8xqrw5d8&sfrom=search_job_pc&curPage=0&pageSize=40&index=0\", \"requireEduLevel\": \"大专\"}, \"recruiter\": {\"imShowText\": \"2小时前在线\", \"imStatus\": false, \"inDay\": true, \"recruiterId\": \"8a9ddcd2b7c37b7c4599ec45ab64bb40\", \"chatted\": false, \"recruiterName\": \"黄女士\", \"recruiterTitle\": \"人事主管\", \"imId\": \"b3c24dcaf0fe7a5a2aa8e4d6edc77f27\", \"imUserType\": \"2\", \"recruiterPhoto\": \"5f8f98648dbe6273dcf8515508u.jpg\"}}, {\"comp\": {\"compScale\": \"1-49人\", \"compIndustry\": \"航空/航天设备\", \"compId\": 13862873, \"compLogo\": \"660bbeb5aa01336b661b191101u.png\", \"compName\": \"芯绒科技\", \"link\": \"https://www.liepin.com/company/13862873/\"}, \"dataParams\": \"{\\\"userId\\\":\\\"44c00256df2b5db8a8ae669df9176379\\\",\\\"jobId\\\":\\\"79896235\\\",\\\"jobKind\\\":\\\"2\\\",\\\"recruiterName\\\":\\\"SHANG TONGHUO\\\",\\\"imId\\\":\\\"ffa488e0fa3dd6b8b74007bb53955074\\\",\\\"imUserType\\\":\\\"2\\\",\\\"recruiterPhoto\\\":\\\"663627e9cab03165109b5c9104u.jpg\\\"}\", \"dataInfo\": \"%7B%22ckId%22%3A%22f5wlumpni8te3v98xtghuz8c8xqrw5d8%22%2C%22skId%22%3A%22f5wlumpni8te3v98xtghuz8c8xqrw5d8%22%2C%22fkId%22%3A%22f5wlumpni8te3v98xtghuz8c8xqrw5d8%22%2C%22scene%22%3A%22init%22%2C%22pageSize%22%3A%2240%22%2C%22curPage%22%3A%220%22%2C%22jobId%22%3A%2279896235%22%2C%22jobKind%22%3A%222%22%2C%22sfrom%22%3A%22search_job_pc%22%2C%22d_curPage%22%3A%220%22%2C%22d_pageSize%22%3A%2240%22%2C%22as_from%22%3A%22search_prime%22%7D\", \"job\": {\"labels\": [], \"g\": \"lj7aqqhom9pq7lagthrvtzyzlvhrelof\", \"requireWorkYears\": \"5-10年\", \"salary\": \"30-60k\", \"pcOuterLink\": \"\", \"h5OuterLink\": \"\", \"dq\": \"上海-闵行区\", \"jobId\": \"79896235\", \"jobKind\": \"2\", \"title\": \"董事长秘书\", \"refreshTime\": \"20260928130218\", \"j\": \"u5j4ntz4weckd5rt2ygqukfacu7wanvk\", \"topJob\": true, \"link\": \"https://www.liepin.com/job/1979896235.shtml\", \"advViewFlag\": true, \"dataPromId\": \"d_sfrom=search_prime&d_ckId=null&d_curPage=0&d_pageSize=40&d_headId=null&d_posi=1&skId=f5wlumpni8te3v98xtghuz8c8xqrw5d8&fkId=f5wlumpni8te3v98xtghuz8c8xqrw5d8&ckId=f5wlumpni8te3v98xtghuz8c8xqrw5d8&sfrom=search_job_pc&curPage=0&pageSize=40&index=1\", \"requireEduLevel\": \"硕士\"}, \"recruiter\": {\"imShowText\": \"5小时前在线\", \"imStatus\": false, \"inDay\": true, \"recruiterId\": \"44c00256df2b5db8a8ae669df9176379\", \"chatted\": false, \"recruiterNam"
+  },
+  {
+    "url": "https://api-wanda.liepin.com/api/com.liepin.cbp.baizhong.op.v2-show-4pc",
+    "status": 200,
+    "request": {
+      "method": "POST",
+      "post_data": "opCode=lp_c_1144&customCondition=%255B%257B%2522name%2522%253A%2522industries%2522%252C%2522value%2522%253A%2522000%2522%257D%255D"
+    },
+    "body_head": "{\"flag\": 1, \"data\": {\"widthRatio\": \"\", \"navigationPoint\": \"1\", \"multipleGraph\": 1, \"adList\": [], \"opType\": \"2\", \"swiperStyle\": 1, \"opCode\": \"lp_c_1144\"}}"
+  },
+  {
+    "url": "https://api-wanda.liepin.com/api/com.liepin.cbp.baizhong.op.v2-show-4pc",
+    "status": 200,
+    "request": {
+      "method": "POST",
+      "post_data": "opCode=lp_c_114401&customCondition=%255B%257B%2522name%2522%253A%2522industries%2522%252C%2522value%2522%253A%2522000%2522%257D%255D"
+    },
+    "body_head": "{\"flag\": 1, \"data\": {\"widthRatio\": \"\", \"navigationPoint\": \"1\", \"opCode\": \"lp_c_114401\", \"adList\": [], \"opType\": \"2\", \"multipleGraph\": 1, \"swiperStyle\": 1}}"
+  },
+  {
+    "url": "https://api-c.liepin.com/api/com.liepin.pupa.get-pc-login-scan-config",
+    "status": 200,
+    "request": {
+      "method": "POST",
+      "post_data": null
+    },
+    "body_head": "{\"flag\": 1, \"data\": {\"graySwitch\": true}}"
+  },
+  {
+    "url": "https://api-c.liepin.com/api/com.liepin.searchfront4c.pc-hot-search-word-list",
+    "status": 200,
+    "request": {
+      "method": "GET",
+      "post_data": null
+    },
+    "body_head": "{\"flag\": 1, \"data\": [\"会计\", \"运营\", \"文员\", \"助理\", \"财务经理\", \"项目经理\", \"产品经理\", \"财务总监\"]}"
+  },
+  {
+    "url": "https://api-wanda.liepin.com/api/com.liepin.cbp.baizhong.op.v2-show-4pc",
+    "status": 200,
+    "request": {
+      "method": "POST",
+      "post_data": "opCode=lp_c_114402&customCondition=%255B%257B%2522name%2522%253A%2522industries%2522%252C%2522value%2522%253A%2522000%2522%257D%255D"
+    },
+    "body_head": "{\"flag\": 1, \"data\": {\"adList\": [], \"multipleGraph\": 1, \"widthRatio\": \"\", \"navigationPoint\": \"1\", \"swiperStyle\": 1, \"opType\": \"2\", \"opCode\": \"lp_c_114402\"}}"
+  },
+  {
+    "url": "https://api-wanda.liepin.com/api/com.liepin.cbp.baizhong.op.v2-show-4pc",
+    "status": 200,
+    "request": {
+      "method": "POST",
+      "post_data": "opCode=lp_c_114403&customCondition=%255B%257B%2522name%2522%253A%2522industries%2522%252C%2522value%2522%253A%2522000%2522%257D%255D"
+    },
+    "body_head": "{\"flag\": 1, \"data\": {\"widthRatio\": \"\", \"navigationPoint\": \"1\", \"opCode\": \"lp_c_114403\", \"adList\": [], \"opType\": \"2\", \"multipleGraph\": 1, \"swiperStyle\": 1}}"
+  },
+  {
+    "url": "https://api-wanda.liepin.com/api/com.liepin.cbp.baizhong.op.v2-show-4pc",
+    "status": 200,
+    "request": {
+      "method": "POST",
+      "post_data": "opCode=lp_c_114404&customCondition=%255B%257B%2522name%2522%253A%2522industries%2522%252C%2522value%2522%253A%2522000%2522%257D%255D"
+    },
+    "body_head": "{\"flag\": 1, \"data\": {\"swiperStyle\": 1, \"navigationPoint\": \"1\", \"widthRatio\": \"\", \"multipleGraph\": 1, \"adList\": [], \"opCode\": \"lp_c_114404\", \"opType\": \"2\"}}"
+  },
+  {
+    "url": "https://api-wanda.liepin.com/api/com.liepin.cbp.baizhong.op.v2-show-4pc",
+    "status": 200,
+    "request": {
+      "method": "POST",
+      "post_data": "opCode=lp_c_114407&customCondition=%255B%257B%2522name%2522%253A%2522industries%2522%252C%2522value%2522%253A%2522000%2522%257D%255D"
+    },
+    "body_head": "{\"flag\": 1, \"data\": {\"swiperStyle\": 1, \"widthRatio\": \"\", \"navigationPoint\": \"1\", \"multipleGraph\": 1, \"adList\": [], \"opCode\": \"lp_c_114407\", \"opType\": \"2\"}}"
+  },
+  {
+    "url": "https://api-wanda.liepin.com/api/com.liepin.cbp.baizhong.op.v2-show-4pc",
+    "status": 200,
+    "request": {
+      "method": "POST",
+      "post_data": "opCode=lp_c_114406&customCondition=%255B%257B%2522name%2522%253A%2522industries%2522%252C%2522value%2522%253A%2522000%2522%257D%255D"
+    },
+    "body_head": "{\"flag\": 1, \"data\": {\"adList\": [], \"navigationPoint\": \"1\", \"multipleGraph\": 1, \"widthRatio\": \"\", \"opCode\": \"lp_c_114406\", \"opType\": \"2\", \"swiperStyle\": 1}}"
+  },
+  {
+    "url": "https://api-wanda.liepin.com/api/com.liepin.cbp.baizhong.op.v2-show-4pc",
+    "status": 200,
+    "request": {
+      "method": "POST",
+      "post_data": "opCode=lp_c_114405&customCondition=%255B%257B%2522name%2522%253A%2522industries%2522%252C%2522value%2522%253A%2522000%2522%257D%255D"
+    },
+    "body_head": "{\"flag\": 1, \"data\": {\"swiperStyle\": 1, \"multipleGraph\": 1, \"widthRatio\": \"\", \"navigationPoint\": \"1\", \"opCode\": \"lp_c_114405\", \"adList\": [], \"opType\": \"2\"}}"
+  },
+  {
+    "url": "https://api-wanda.liepin.com/api/com.liepin.cbp.baizhong.op.v2-show-4pc",
+    "status": 200,
+    "request": {
+      "method": "POST",
+      "post_data": "opCode=lp_c_114408&customCondition=%255B%257B%2522name%2522%253A%2522industries%2522%252C%2522value%2522%253A%2522000%2522%257D%255D"
+    },
+    "body_head": "{\"flag\": 1, \"data\": {\"adList\": [], \"multipleGraph\": 1, \"widthRatio\": \"\", \"navigationPoint\": \"1\", \"swiperStyle\": 1, \"opType\": \"2\", \"opCode\": \"lp_c_114408\"}}"
+  },
+  {
+    "url": "https://api-wanda.liepin.com/api/com.liepin.cbp.baizhong.op.v2-show-4pc",
+    "status": 200,
+    "request": {
+      "method": "POST",
+      "post_data": "opCode=lp_c_114409&customCondition=%255B%257B%2522name%2522%253A%2522industries%2522%252C%2522value%2522%253A%2522000%2522%257D%255D"
+    },
+    "body_head": "{\"flag\": 1, \"data\": {\"widthRatio\": \"\", \"navigationPoint\": \"1\", \"multipleGraph\": 1, \"adList\": [], \"opType\": \"2\", \"swiperStyle\": 1, \"opCode\": \"lp_c_114409\"}}"
+  },
+  {
+    "url": "https://api-wanda.liepin.com/api/com.liepin.cbp.baizhong.op.v2-show-4pc",
+    "status": 200,
+    "request": {
+      "method": "POST",
+      "post_data": "opCode=lp_c_114410&customCondition=%255B%257B%2522name%2522%253A%2522industries%2522%252C%2522value%2522%253A%2522000%2522%257D%255D"
+    },
+    "body_head": "{\"flag\": 1, \"data\": {\"adList\": [], \"navigationPoint\": \"1\", \"widthRatio\": \"\", \"multipleGraph\": 1, \"swiperStyle\": 1, \"opCode\": \"lp_c_114410\", \"opType\": \"2\"}}"
+  },
+  {
+    "url": "https://api-wanda.liepin.com/api/com.liepin.cbp.baizhong.op.v2-show-4pc",
+    "status": 200,
+    "request": {
+      "method": "POST",
+      "post_data": "opCode=lp_c_114411&customCondition=%255B%257B%2522name%2522%253A%2522industries%2522%252C%2522value%2522%253A%2522000%2522%257D%255D"
+    },
+    "body_head": "{\"flag\": 1, \"data\": {\"widthRatio\": \"\", \"navigationPoint\": \"1\", \"multipleGraph\": 1, \"adList\": [], \"opType\": \"2\", \"swiperStyle\": 1, \"opCode\": \"lp_c_114411\"}}"
+  },
+  {
+    "url": "https://api-wanda.liepin.com/api/com.liepin.cbp.baizhong.op.v2-show-4pc",
+    "status": 200,
+    "request": {
+      "method": "POST",
+      "post_data": "opCode=lp_c_114412&customCondition=%255B%257B%2522name%2522%253A%2522industries%2522%252C%2522value%2522%253A%2522000%2522%257D%255D"
+    },
+    "body_head": "{\"flag\": 1, \"data\": {\"adList\": [], \"navigationPoint\": \"1\", \"widthRatio\": \"\", \"multipleGraph\": 1, \"swiperStyle\": 1, \"opCode\": \"lp_c_114412\", \"opType\": \"2\"}}"
+  },
+  {
+    "url": "https://api-wanda.liepin.com/api/com.liepin.cbp.baizhong.op.v2-show-4pc",
+    "status": 200,
+    "request": {
+      "method": "POST",
+      "post_data": "opCode=lp_c_114413&customCondition=%255B%257B%2522name%2522%253A%2522industries%2522%252C%2522value%2522%253A%2522000%2522%257D%255D"
+    },
+    "body_head": "{\"flag\": 1, \"data\": {\"adList\": [], \"navigationPoint\": \"1\", \"multipleGraph\": 1, \"widthRatio\": \"\", \"opCode\": \"lp_c_114413\", \"opType\": \"2\", \"swiperStyle\": 1}}"
+  },
+  {
+    "url": "https://api-wanda.liepin.com/api/com.liepin.cbp.baizhong.op.v2-show-4pc",
+    "status": 200,
+    "request": {
+      "method": "POST",
+      "post_data": "opCode=lp_c_114414&customCondition=%255B%257B%2522name%2522%253A%2522industries%2522%252C%2522value%2522%253A%2522000%2522%257D%255D"
+    },
+    "body_head": "{\"flag\": 1, \"data\": {\"swiperStyle\": 1, \"navigationPoint\": \"1\", \"widthRatio\": \"\", \"multipleGraph\": 1, \"adList\": [], \"opCode\": \"lp_c_114414\", \"opType\": \"2\"}}"
+  },
+  {
+    "url": "https://api-wanda.liepin.com/api/com.liepin.cbp.baizhong.op.v2-show-4pc",
+    "status": 200,
+    "request": {
+      "method": "POST",
+      "post_data": "opCode=lp_c_114415&customCondition=%255B%257B%2522name%2522%253A%2522industries%2522%252C%2522value%2522%253A%2522000%2522%257D%255D"
+    },
+    "body_head": "{\"flag\": 1, \"data\": {\"adList\": [], \"navigationPoint\": \"1\", \"multipleGraph\": 1, \"widthRatio\": \"\", \"opCode\": \"lp_c_114415\", \"opType\": \"2\", \"swiperStyle\": 1}}"
+  },
+  {
+    "url": "https://api-wanda.liepin.com/api/com.liepin.cbp.baizhong.op.v2-show-4pc",
+    "status": 200,
+    "request": {
+      "method": "POST",
+      "post_data": "opCode=lp_c_114416&customCondition=%255B%257B%2522name%2522%253A%2522industries%2522%252C%2522value%2522%253A%2522000%2522%257D%255D"
+    },
+    "body_head": "{\"flag\": 1, \"data\": {\"adList\": [], \"opType\": \"2\", \"multipleGraph\": 1, \"navigationPoint\": \"1\", \"widthRatio\": \"\", \"swiperStyle\": 1, \"opCode\": \"lp_c_114416\"}}"
+  },
+  {
+    "url": "https://api-wanda.liepin.com/api/com.liepin.cbp.baizhong.op.v2-show-4pc",
+    "status": 200,
+    "request": {
+      "method": "POST",
+      "post_data": "opCode=lp_c_114417&customCondition=%255B%257B%2522name%2522%253A%2522industries%2522%252C%2522value%2522%253A%2522000%2522%257D%255D"
+    },
+    "body_head": "{\"flag\": 1, \"data\": {\"adList\": [], \"multipleGraph\": 1, \"widthRatio\": \"\", \"navigationPoint\": \"1\", \"swiperStyle\": 1, \"opType\": \"2\", \"opCode\": \"lp_c_114417\"}}"
+  },
+  {
+    "url": "https://api-wanda.liepin.com/api/com.liepin.cbp.baizhong.op.v2-show-4pc",
+    "status": 200,
+    "request": {
+      "method": "POST",
+      "post_data": "opCode=lp_c_114420&customCondition=%255B%257B%2522name%2522%253A%2522industries%2522%252C%2522value%2522%253A%2522000%2522%257D%255D"
+    },
+    "body_head": "{\"flag\": 1, \"data\": {\"adList\": [], \"multipleGraph\": 1, \"widthRatio\": \"\", \"navigationPoint\": \"1\", \"swiperStyle\": 1, \"opType\": \"2\", \"opCode\": \"lp_c_114420\"}}"
+  },
+  {
+    "url": "https://api-wanda.liepin.com/api/com.liepin.cbp.baizhong.op.v2-show-4pc",
+    "status": 200,
+    "request": {
+      "method": "POST",
+      "post_data": "opCode=lp_c_114418&customCondition=%255B%257B%2522name%2522%253A%2522industries%2522%252C%2522value%2522%253A%2522000%2522%257D%255D"
+    },
+    "body_head": "{\"flag\": 1, \"data\": {\"multipleGraph\": 1, \"widthRatio\": \"\", \"adList\": [], \"navigationPoint\": \"1\", \"opCode\": \"lp_c_114418\", \"swiperStyle\": 1, \"opType\": \"2\"}}"
+  },
+  {
+    "url": "https://api-wanda.liepin.com/api/com.liepin.cbp.baizhong.op.v2-show-4pc",
+    "status": 200,
+    "request": {
+      "method": "POST",
+      "post_data": "opCode=lp_c_114419&customCondition=%255B%257B%2522name%2522%253A%2522industries%2522%252C%2522value%2522%253A%2522000%2522%257D%255D"
+    },
+    "body_head": "{\"flag\": 1, \"data\": {\"widthRatio\": \"\", \"navigationPoint\": \"1\", \"opCode\": \"lp_c_114419\", \"adList\": [], \"opType\": \"2\", \"multipleGraph\": 1, \"swiperStyle\": 1}}"
+  },
+  {
+    "url": "https://api-wanda.liepin.com/api/com.liepin.cbp.baizhong.op.v2-show-4pc",
+    "status": 200,
+    "request": {
+      "method": "POST",
+      "post_data": "opCode=lp_c_114422&customCondition=%255B%257B%2522name%2522%253A%2522industries%2522%252C%2522value%2522%253A%2522000%2522%257D%255D"
+    },
+    "body_head": "{\"flag\": 1, \"data\": {\"multipleGraph\": 1, \"swiperStyle\": 1, \"opType\": \"2\", \"opCode\": \"lp_c_114422\", \"adList\": [], \"navigationPoint\": \"1\", \"widthRatio\": \"\"}}"
+  },
+  {
+    "url": "https://api-wanda.liepin.com/api/com.liepin.cbp.baizhong.op.v2-show-4pc",
+    "status": 200,
+    "request": {
+      "method": "POST",
+      "post_data": "opCode=lp_c_114421&customCondition=%255B%257B%2522name%2522%253A%2522industries%2522%252C%2522value%2522%253A%2522000%2522%257D%255D"
+    },
+    "body_head": "{\"flag\": 1, \"data\": {\"widthRatio\": \"\", \"navigationPoint\": \"1\", \"multipleGraph\": 1, \"adList\": [], \"swiperStyle\": 1, \"opType\": \"2\", \"opCode\": \"lp_c_114421\"}}"
+  },
+  {
+    "url": "https://api-wanda.liepin.com/api/com.liepin.cbp.baizhong.op.v2-show-4pc",
+    "status": 200,
+    "request": {
+      "method": "POST",
+      "post_data": "opCode=lp_c_9000&customCondition="
+    },
+    "body_head": "{\"flag\": 1, \"data\": {\"adList\": [{\"widthRatio\": \"\", \"backgroundColor\": \"白\", \"adMode\": \"1\", \"adId\": 0, \"height\": 160, \"width\": 384, \"link\": \"\", \"imgSrc\": \"https://image0.lietou-static.com/img/6376ee648c153721b4949ab302u.png\"}], \"navigationPoint\": \"1\", \"multipleGraph\": 1, \"widthRatio\": \"\", \"opCode\": \"lp_c_9000\", \"opType\": \"2\", \"swiperStyle\": 2}}"
+  },
+  {
+    "url": "https://api-wanda.liepin.com/api/com.liepin.cbp.baizhong.op.v2-log-4pc",
+    "status": 200,
+    "request": {
+      "method": "POST",
+      "post_data": "opCode=lp_c_9000&adId=0&type=1"
+    },
+    "body_head": "{\"flag\": 1, \"data\": {\"success\": true}}"
+  },
+  {
+    "url": "https://api-dok.liepin.com/api/com.liepin.bd.p.v4.get-all-dq?part=part_1,country,province&sc=0&from=component",
+    "status": 200,
+    "request": {
+      "method": "GET",
+      "post_data": null
+    },
+    "body_head": "{\"flag\": 1, \"data\": {\"country\": {\"list\": {\"370100\": {\"p\": \"370\", \"a\": \"2\", \"c\": \"370100\", \"en\": \"Brazil\", \"l\": \"2\", \"ca\": 1, \"n\": \"巴西\"}, \"420250\": {\"p\": \"360030\", \"a\": \"2\", \"c\": \"420250\", \"en\": \"Missouri\", \"l\": \"17\", \"ca\": 2, \"n\": \"密苏里州\"}, \"400520\": {\"p\": \"400\", \"a\": \"2\", \"c\": \"400520\", \"en\": \"Swaziland\", \"l\": \"2\", \"ca\": 1, \"n\": \"斯威士兰\"}, \"420370\": {\"p\": \"360030\", \"a\": \"2\", \"c\": \"420370\", \"en\": \"Oregon\", \"l\": \"17\", \"ca\": 2, \"n\": \"俄勒冈州\"}, \"420490\": {\"p\": \"360030\", \"a\": \"2\", \"c\": \"420490\", \"en\": \"Wisconsin\", \"l\": \"17\", \"ca\": 2, \"n\": \"威斯康星州\"}, \"420010\": {\"p\": \"360030\", \"a\": \"2\", \"c\": \"420010\", \"en\": \"Alabama\", \"l\": \"17\", \"ca\": 2, \"n\": \"亚拉巴马州\"}, \"350\": {\"p\": \"\", \"a\": \"2\", \"c\": \"350\", \"en\": \"Asia\", \"l\": \"1\", \"ca\": 0, \"n\": \"亚洲\"}, \"420130\": {\"p\": \"360030\", \"a\": \"2\", \"c\": \"420130\", \"en\": \"Illinois\", \"l\": \"17\", \"ca\": 2, \"n\": \"伊利诺伊州\"}, \"380140\": {\"p\": \"380\", \"a\": \"2\", \"c\": \"380140\", \"en\": \"The Republic of Fiji\", \"l\": \"2\", \"ca\": 1, \"n\": \"斐济\"}, \"380020\": {\"p\": \"380\", \"a\": \"2\", \"c\": \"380020\", \"en\": \"Australia\", \"l\": \"2\", \"ca\": 1, \"n\": \"澳大利亚\"}, \"350180\": {\"p\": \"350\", \"a\": \"2\", \"c\": \"350180\", \"en\": \"Bhutan\", \"l\": \"2\", \"ca\": 1, \"n\": \"不丹\"}, \"350060\": {\"p\": \"350\", \"a\": \"2\", \"c\": \"350060\", \"en\": \"Philippines\", \"l\": \"2\", \"ca\": 1, \"n\": \"菲律宾\"}, \"400510\": {\"p\": \"400\", \"a\": \"2\", \"c\": \"400510\", \"en\": \"South Africa\", \"l\": \"2\", \"ca\": 1, \"n\": \"南非\"}, \"430060\": {\"p\": \"360020\", \"a\": \"2\", \"c\": \"430060\", \"en\": \"Nova Scotia\", \"l\": \"4\", \"ca\": 2, \"n\": \"新斯科舍省\"}, \"390080\": {\"p\": \"390\", \"a\": \"2\", \"c\": \"390080\", \"en\": \"Estonia\", \"l\": \"2\", \"ca\": 1, \"n\": \"爱沙尼亚\"}, \"400190\": {\"p\": \"400\", \"a\": \"2\", \"c\": \"400190\", \"en\": \"Seychelles\", \"l\": \"2\", \"ca\": 1, \"n\": \"塞舌尔\"}, \"400070\": {\"p\": \"400\", \"a\": \"2\", \"c\": \"400070\", \"en\": \"Morocco\", \"l\": \"2\", \"ca\": 1, \"n\": \"摩洛哥\"}, \"420140\": {\"p\": \"360030\", \"a\": \"2\", \"c\": \"420140\", \"en\": \"Indiana\", \"l\": \"17\", \"ca\": 2, \"n\": \"印第安那州\"}, \"420260\": {\"p\": \"360030\", \"a\": \"2\", \"c\": \"420260\", \"en\": \"Montana\", \"l\": \"17\", \"ca\": 2, \"n\": \"蒙大拿州\"}, \"420380\": {\"p\": \"360030\", \"a\": \"2\", \"c\": \"420380\", \"en\": \"Pennsylvania\", \"l\": \"17\", \"ca\": 2, \"n\": \"宾州\"}, \"390400\": {\"p\": \"390\", \"a\": \"2\", \"c\": \"390400\", \"en\": \"San Marino\", \"l\": \"2\", \"ca\": 1, \"n\": \"圣马力诺\"}, \"360\": {\"p\": \"\", \"a\": \"2\", \"c\": \"360\", \"en\": \"NorthAmerica\", \"l\": \"1\", \"ca\": 0, \"n\": \"北美洲\"}, \"420020\": {\"p\": \"360030\", \"a\": \"2\", \"c\": \"420020\", \"en\": \"Alaska\", \"l\": \"17\", \"ca\": 2, \"n\": \"阿拉斯加州\"}, \"1\": {\"en\": \"Hot country\", \"n\": \"热门国家\"}, \"380130\": {\"p\": \"380\", \"a\": \"2\", \"c\": \"380130\", \"en\": \"Samoa\", \"l\": \"2\", \"ca\": 1, \"n\": \"萨摩亚\"}, \"350190\": {\"p\": \"350\", \"a\": \"2\", \"c\": \"350190\", \"en\": \"Bangladesh\", \"l\": \"2\", \"ca\": 1, \"n\": \"孟加拉国\"}, \"350070\": {\"p\": \"350\", \"a\": \"2\", \"c\": \"350070\", \"en\": \"Vietnam\", \"l\": \"2\", \"ca\": 1, \"n\": \"越南\"}, \"400500\": {\"p\": \"400\", \"a\": \"2\", \"c\": \"400500\", \"en\": \"Namibia\", \"l\": \"2\", \"ca\": 1, \"n\": \"纳米比亚\"}, \"430050\": {\"p\": \"360020\", \"a\": \"2\", \"c\": \"430050\", \"en\": \"New Brunswick\", \"l\": \"4\", \"ca\": 2, \"n\": \"新不伦瑞克省\"}, \"390090\": {\"p\": \"390\", \"a\": \"2\", \"c\": \"390090\", \"en\": \"Latvia\", \"l\": \"2\", \"ca\": 1, \"n\": \"拉脱维亚\"}, \"390170\": {\"p\": \"390\", \"a\": \"2\", \"c\": \"390170\", \"en\": \"Hungary\", \"l\": \"2\", \"ca\": 1, \"n\": \"匈牙利\"}, \"400060\": {\"p\": \"400\", \"a\": \"2\", \"c\": \"400060\", \"en\": \"Algeria\", \"l\": \"2\", \"ca\": 1, \"n\": \"阿尔及利亚\"}, \"390050\": {\"p\": \"390\", \"a\": \"2\", \"c\": \"390050\", \"en\": \"Iceland\", \"l\": \"2\", \"ca\": 1, \"n\": \"冰岛\"}, \"400180\": {\"p\": \"400\", \"a\": \"2\", \"c\": \"400180\", \"en\": \"Burundi\", \"l\": \"2\", \"ca\": 1, \"n\": \"布隆迪\"}, \"370120\": {\"p\": \"370\", \"a\": \"2\", \"c\": \"370120\", \"en\": \"Argentina\", \"l\": \"2\", \"ca\": 1, \"n\": \"阿根廷\"}, \"420030\": {\"p\": \"360030\", \"a\": \"2\", \"c\": \"420030\", \"en\": \"Arizona\", \"l\": \"17\", \"ca\": 2, \"n\": \"亚利桑那州\"}, \"420150\": {\"p\": \"360030\", \"a\": \"2\", \"c\": \"420150\", \"en\": \"Iowa\", \"l\": \"17\", \"ca\": 2, \"n\": \"爱荷华州\"}, \"420270\": {\"p\": \"360030\", \"a\": \"2\", \"c\": \"420270\", \"en\": \"Nebraska\", \"l\": \"17\", \"ca\": 2, \"n\": \"内布拉斯加州\"}, \"420390\": {\"p\": \"360030\", \"a\": \"2\", \"c\": \"420390\", \"en\": \"South Carolina\", \"l\": \"17\", \"ca\": 2, \"n\": \"南卡省\"}, \"370\": {\"p\": \"\", \"a\": \"2\", \"c\": \"370\", \"en\": \"SouthAmerica\", \"l\": \"1\", \"ca\": 0, \"n\": \"南美洲\"}, \"350080\": {\"p\": \""
+  },
+  {
+    "url": "https://api-dok.liepin.com/api/com.liepin.bd.v3.batch-lookup-dq",
+    "status": 200,
+    "request": {
+      "method": "POST",
+      "post_data": "lang=zh&dqCodes=410&parentDepth=1&from=component"
+    },
+    "body_head": "{\"flag\": 1, \"data\": {\"dqs\": {\"410\": {\"level\": \"\", \"code\": \"410\", \"category\": -1, \"parentCode\": \"\", \"areaNumber\": \"\", \"abroadFlag\": \"0\", \"parentNames\": [\"全国\"], \"name\": \"全国\"}}}}"
+  },
+  {
+    "url": "https://statistic.liepin.com/statisticPlatform/standardFLog.json",
+    "status": 200,
+    "request": {
+      "method": "POST",
+      "post_data": "{\"ver\":\"1.2.9\",\"businessId\":\"40108\",\"dScore\":100,\"dInfo\":{\"v\":5,\"hard\":1,\"hardHits\":[\"H1\"],\"hits\":{},\"wd\":1,\"wdProto\":1,\"wdOverride\":0,\"wdNative\":true,\"lang\":1,\"plug\":5,\"mem\":16,\"head\":0,\"uaData\":1,\"chr\":1,\"run\":0,\"color\":24,\"gl\":\"amd\",\"geoOk\":1,\"geoW\":1,\"tsNative\":true,\"console\":1,\"conW\":0,\"locR\":0,\"aeW\":0,\"pc\":1,\"tk\":\"b7c684555ba1a14d\",\"notif\":\"default\",\"perm\":\"prompt\",\"errKeys\":[]},\"events\":[{\"action\":\"action_page_view\",\"p\":\"{\\\"appKey\\\":\\\"lp-c\\\",\\\"time\\\":1791986017776}\",\"p2\":\"https://www.liepin.com/zhaopin/?key=%E8%B4%A2%E5%8A%A1%E5%88%86%E6%9E%90\",\"p3\":\"\",\"p4\":\"【招聘信息_人才网招聘信息】-猎聘\"},{\"action\":\"action_dev_tool_open\",\"p\":\"{\\\"appKey\\\":\\\"lp-c\\\",\\\"time\\\":1791986019778}\",\"p2\":\"https://www.liepin.com/zhaopin/?key=%E8%B4%A2%E5%8A%A1%E5%88%86%E6%9E%90\",\"p3\":\"console\",\"p4\":\"【招聘信息_人才网招聘信息】-猎聘\"}]}"
+    },
+    "body_head": "{\"data\": \"success\", \"flag\": 1}"
+  }
+]

@@ -1,0 +1,32 @@
+# ============================================================
+# 财务岗位聚合平台 配置（用户唯一入口：改完保存即生效，无需改代码）
+# ============================================================
+city: 上海
+
+# 关键词组：name=方向名（UI 筛选用），job_type=全职/实习，keywords=搜索词列表
+keyword_groups:
+  - {name: 财务分析/FP&A, job_type: 全职, keywords: [财务分析, "FP&A", 经营分析]}
+  - {name: 会计/核算,     job_type: 全职, keywords: [会计, 总账会计, 核算会计]}
+  - {name: 税务方向,     job_type: 全职, keywords: [税务专员, 税务会计]}
+  - {name: 实习/校招,    job_type: 实习, keywords: [财务实习, 会计实习, 税务实习]}
+  - {name: AI财务/AI应用, job_type: 全职, keywords: [财务BP AI, 智能财务]}
+
+# 平台开关（enabled: false 即跳过）；max_pages_per_keyword 目前固定第 1 页
+platforms:
+  liepin:  {enabled: true,  max_pages_per_keyword: 1}
+  job51:   {enabled: true,  max_pages_per_keyword: 1}
+  zhaopin: {enabled: true,  max_pages_per_keyword: 1}
+  zhipin:  {enabled: true,  max_pages_per_keyword: 1, profile_dir: data/browser_profile_chrome}
+
+# 抓取行为：慢速是特性，别调太快
+fetch:
+  headless: false            # 有头更稳（反爬探测）；确认稳定后可试 true
+  request_interval_sec: [4.0, 8.0]    # 相邻两次搜索之间随机等待
+  page_interval_sec: [6.0, 12.0]      # 翻页之间（预留）
+  timeout_sec: 25
+  max_retries: 2
+  archive_after_misses: 7    # 连续 7 轮（约一周）未出现 → 归档
+
+ui:
+  default_fresh_days: 14
+  page_size: 100

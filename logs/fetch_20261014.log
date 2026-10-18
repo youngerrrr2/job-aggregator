@@ -1,0 +1,158 @@
+2026-10-14 22:27:31,839 INFO jobaggregator.pipeline [dry-run] 城市=上海 平台=['job51', 'liepin', 'zhaopin', 'zhipin']
+2026-10-14 22:27:31,839 INFO jobaggregator.pipeline [dry-run] 关键词组 财务分析/FP&A（全职）：财务分析、FP&A、经营分析
+2026-10-14 22:27:31,840 INFO jobaggregator.pipeline [dry-run] 关键词组 会计/核算（全职）：会计、总账会计、核算会计
+2026-10-14 22:27:31,840 INFO jobaggregator.pipeline [dry-run] 关键词组 税务方向（全职）：税务专员、税务会计
+2026-10-14 22:27:31,840 INFO jobaggregator.pipeline [dry-run] 关键词组 实习/校招（实习）：财务实习、会计实习、税务实习
+2026-10-14 22:27:31,840 INFO jobaggregator.pipeline [dry-run] 关键词组 AI财务/AI应用（全职）：财务BP AI、智能财务
+2026-10-14 22:27:31,840 INFO jobaggregator.pipeline [dry-run] 尚未实现的平台（将跳过）：liepin、job51、zhaopin、zhipin
+2026-10-14 22:27:31,840 INFO jobaggregator.pipeline [dry-run] 数据库：C:\Users\yg\job-aggregator\data\jobs.db（jobs/fetch_runs 两表已就绪）
+2026-10-14 22:28:28,069 INFO jobaggregator.pipeline [dry-run] 城市=上海 平台=['job51', 'liepin', 'zhaopin', 'zhipin']
+2026-10-14 22:28:28,070 INFO jobaggregator.pipeline [dry-run] 关键词组 财务分析/FP&A（全职）：财务分析、FP&A、经营分析
+2026-10-14 22:28:28,070 INFO jobaggregator.pipeline [dry-run] 关键词组 会计/核算（全职）：会计、总账会计、核算会计
+2026-10-14 22:28:28,070 INFO jobaggregator.pipeline [dry-run] 关键词组 税务方向（全职）：税务专员、税务会计
+2026-10-14 22:28:28,070 INFO jobaggregator.pipeline [dry-run] 关键词组 实习/校招（实习）：财务实习、会计实习、税务实习
+2026-10-14 22:28:28,116 INFO jobaggregator.pipeline [dry-run] 关键词组 AI财务/AI应用（全职）：财务BP AI、智能财务
+2026-10-14 22:28:28,116 INFO jobaggregator.pipeline [dry-run] 尚未实现的平台（将跳过）：liepin、job51、zhaopin、zhipin
+2026-10-14 22:28:28,117 INFO jobaggregator.pipeline [dry-run] 数据库：C:\Users\yg\job-aggregator\data\jobs.db（jobs/fetch_runs 两表已就绪）
+2026-10-14 22:30:05,149 INFO jobaggregator.browser 浏览器引擎就绪（channel=chrome, headless=False）
+2026-10-14 22:30:22,793 INFO jobaggregator.pipeline [liepin] 财务分析/FP&A / 财务分析：0 条（新 0，更新 0）
+2026-10-14 22:30:29,417 INFO jobaggregator.pipeline [liepin] 会计/核算 / 会计：0 条（新 0，更新 0）
+2026-10-14 22:30:35,931 INFO jobaggregator.pipeline [liepin] 税务方向 / 税务专员：0 条（新 0，更新 0）
+2026-10-14 22:30:41,007 INFO jobaggregator.pipeline [liepin] 实习/校招 / 财务实习：0 条（新 0，更新 0）
+2026-10-14 22:30:48,771 INFO jobaggregator.pipeline [liepin] AI财务/AI应用 / 财务BP AI：0 条（新 0，更新 0）
+2026-10-14 22:42:33,357 INFO jobaggregator.browser 浏览器引擎就绪（channel=chrome, headless=False）
+2026-10-14 22:42:35,093 INFO jobaggregator.pipeline [liepin] 财务分析/FP&A / 财务分析：42 条（新 42，更新 0）
+2026-10-14 22:42:41,669 INFO jobaggregator.pipeline [liepin] 会计/核算 / 会计：42 条（新 40，更新 2）
+2026-10-14 22:42:48,486 INFO jobaggregator.pipeline [liepin] 税务方向 / 税务专员：42 条（新 42，更新 0）
+2026-10-14 22:42:54,371 INFO jobaggregator.pipeline [liepin] 实习/校招 / 财务实习：42 条（新 42，更新 0）
+2026-10-14 22:43:02,989 INFO jobaggregator.pipeline [liepin] AI财务/AI应用 / 财务BP AI：42 条（新 42，更新 0）
+2026-10-14 22:52:49,168 INFO jobaggregator.browser 浏览器引擎就绪（channel=chrome, headless=False）
+2026-10-14 22:52:51,173 WARNING jobaggregator.scrapers.job51 [job51] 页面/接口第 1 次加载失败：JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2026-10-14 22:52:52,316 INFO jobaggregator.pipeline [job51] 财务分析/FP&A / 财务分析：20 条（新 20，更新 0）
+2026-10-14 22:52:59,819 INFO jobaggregator.pipeline [job51] 会计/核算 / 会计：20 条（新 18，更新 2）
+2026-10-14 22:53:06,979 INFO jobaggregator.pipeline [job51] 税务方向 / 税务专员：20 条（新 17，更新 3）
+2026-10-14 22:53:14,318 INFO jobaggregator.pipeline [job51] 实习/校招 / 财务实习：20 条（新 19，更新 1）
+2026-10-14 22:53:22,424 INFO jobaggregator.pipeline [job51] AI财务/AI应用 / 财务BP AI：20 条（新 20，更新 0）
+2026-10-14 22:58:58,390 INFO jobaggregator.browser 浏览器引擎就绪（channel=chrome, headless=False）
+2026-10-14 22:59:23,592 WARNING jobaggregator.scrapers.zhaopin [zhaopin] 页面/接口第 1 次加载失败：TimeoutError('Timeout 25000ms exceeded while waiting for event "response"')
+2026-10-14 22:59:48,608 WARNING jobaggregator.scrapers.zhaopin [zhaopin] 页面/接口第 2 次加载失败：TimeoutError('Timeout 25000ms exceeded while waiting for event "response"')
+2026-10-14 23:00:13,620 WARNING jobaggregator.scrapers.zhaopin [zhaopin] 页面/接口第 3 次加载失败：TimeoutError('Timeout 25000ms exceeded while waiting for event "response"')
+2026-10-14 23:00:13,621 ERROR jobaggregator.pipeline [zhaopin] 关键词「财务分析」抓取失败：ScraperError('[zhaopin] 打开页面或捕获页面文档失败：TimeoutError(\'Timeout 25000ms exceeded while waiting for event "response"\')')
+2026-10-14 23:00:38,642 WARNING jobaggregator.scrapers.zhaopin [zhaopin] 页面/接口第 1 次加载失败：TimeoutError('Timeout 25000ms exceeded while waiting for event "response"')
+2026-10-14 23:01:03,650 WARNING jobaggregator.scrapers.zhaopin [zhaopin] 页面/接口第 2 次加载失败：TimeoutError('Timeout 25000ms exceeded while waiting for event "response"')
+2026-10-14 23:01:28,648 WARNING jobaggregator.scrapers.zhaopin [zhaopin] 页面/接口第 3 次加载失败：TimeoutError('Timeout 25000ms exceeded while waiting for event "response"')
+2026-10-14 23:01:28,648 ERROR jobaggregator.pipeline [zhaopin] 关键词「会计」抓取失败：ScraperError('[zhaopin] 打开页面或捕获页面文档失败：TimeoutError(\'Timeout 25000ms exceeded while waiting for event "response"\')')
+2026-10-14 23:01:53,679 WARNING jobaggregator.scrapers.zhaopin [zhaopin] 页面/接口第 1 次加载失败：TimeoutError('Timeout 25000ms exceeded while waiting for event "response"')
+2026-10-14 23:02:18,688 WARNING jobaggregator.scrapers.zhaopin [zhaopin] 页面/接口第 2 次加载失败：TimeoutError('Timeout 25000ms exceeded while waiting for event "response"')
+2026-10-14 23:02:43,705 WARNING jobaggregator.scrapers.zhaopin [zhaopin] 页面/接口第 3 次加载失败：TimeoutError('Timeout 25000ms exceeded while waiting for event "response"')
+2026-10-14 23:02:43,705 ERROR jobaggregator.pipeline [zhaopin] 关键词「税务专员」抓取失败：ScraperError('[zhaopin] 打开页面或捕获页面文档失败：TimeoutError(\'Timeout 25000ms exceeded while waiting for event "response"\')')
+2026-10-14 23:03:08,735 WARNING jobaggregator.scrapers.zhaopin [zhaopin] 页面/接口第 1 次加载失败：TimeoutError('Timeout 25000ms exceeded while waiting for event "response"')
+2026-10-14 23:03:33,736 WARNING jobaggregator.scrapers.zhaopin [zhaopin] 页面/接口第 2 次加载失败：TimeoutError('Timeout 25000ms exceeded while waiting for event "response"')
+2026-10-14 23:03:58,743 WARNING jobaggregator.scrapers.zhaopin [zhaopin] 页面/接口第 3 次加载失败：TimeoutError('Timeout 25000ms exceeded while waiting for event "response"')
+2026-10-14 23:03:58,743 ERROR jobaggregator.pipeline [zhaopin] 关键词「财务实习」抓取失败：ScraperError('[zhaopin] 打开页面或捕获页面文档失败：TimeoutError(\'Timeout 25000ms exceeded while waiting for event "response"\')')
+2026-10-14 23:04:23,758 WARNING jobaggregator.scrapers.zhaopin [zhaopin] 页面/接口第 1 次加载失败：TimeoutError('Timeout 25000ms exceeded while waiting for event "response"')
+2026-10-14 23:04:48,751 WARNING jobaggregator.scrapers.zhaopin [zhaopin] 页面/接口第 2 次加载失败：TimeoutError('Timeout 25000ms exceeded while waiting for event "response"')
+2026-10-14 23:05:13,756 WARNING jobaggregator.scrapers.zhaopin [zhaopin] 页面/接口第 3 次加载失败：TimeoutError('Timeout 25000ms exceeded while waiting for event "response"')
+2026-10-14 23:05:13,756 ERROR jobaggregator.pipeline [zhaopin] 关键词「财务BP AI」抓取失败：ScraperError('[zhaopin] 打开页面或捕获页面文档失败：TimeoutError(\'Timeout 25000ms exceeded while waiting for event "response"\')')
+2026-10-14 23:06:16,652 INFO jobaggregator.browser 浏览器引擎就绪（channel=chrome, headless=False）
+2026-10-14 23:06:19,031 INFO jobaggregator.pipeline [zhaopin] 财务分析/FP&A / 财务分析：20 条（新 20，更新 0）
+2026-10-14 23:06:27,158 INFO jobaggregator.pipeline [zhaopin] 会计/核算 / 会计：20 条（新 13，更新 7）
+2026-10-14 23:06:34,525 INFO jobaggregator.pipeline [zhaopin] 税务方向 / 税务专员：20 条（新 20，更新 0）
+2026-10-14 23:06:43,068 INFO jobaggregator.pipeline [zhaopin] 实习/校招 / 财务实习：20 条（新 19，更新 1）
+2026-10-14 23:06:48,953 INFO jobaggregator.pipeline [zhaopin] AI财务/AI应用 / 财务BP AI：4 条（新 4，更新 0）
+2026-10-14 23:29:06,996 INFO jobaggregator.browser 附加到已在运行的真实 Chrome（端口 9333）
+2026-10-14 23:29:08,506 INFO jobaggregator.pipeline [zhipin] 财务分析/FP&A / 财务分析：15 条（新 15，更新 0）
+2026-10-14 23:29:15,570 INFO jobaggregator.pipeline [zhipin] 会计/核算 / 会计：15 条（新 15，更新 0）
+2026-10-14 23:29:25,129 INFO jobaggregator.pipeline [zhipin] 税务方向 / 税务专员：15 条（新 15，更新 0）
+2026-10-14 23:29:34,265 INFO jobaggregator.pipeline [zhipin] 实习/校招 / 财务实习：15 条（新 15，更新 0）
+2026-10-14 23:29:41,078 INFO jobaggregator.pipeline [zhipin] AI财务/AI应用 / 财务BP AI：15 条（新 12，更新 3）
+2026-10-14 23:37:41,806 INFO jobaggregator.browser 浏览器引擎就绪（channel=chrome, headless=False）
+2026-10-14 23:37:43,641 INFO jobaggregator.pipeline [liepin] 财务分析/FP&A / 财务分析：42 条（新 2，更新 40）
+2026-10-14 23:37:50,183 WARNING jobaggregator.scrapers.liepin [liepin] 页面/接口第 1 次加载失败：TargetClosedError('Page.goto: Target page, context or browser has been closed\nCall log:\n  - navigating to "https://www.liepin.com/zhaopin/?key=FP%26A&dq=020", waiting until "domcontentloaded"\n')
+2026-10-14 23:37:50,184 WARNING jobaggregator.scrapers.liepin [liepin] 页面/接口第 2 次加载失败：TargetClosedError('Page.goto: Target page, context or browser has been closed')
+2026-10-14 23:37:50,185 WARNING jobaggregator.scrapers.liepin [liepin] 页面/接口第 3 次加载失败：TargetClosedError('Page.goto: Target page, context or browser has been closed')
+2026-10-14 23:37:50,185 ERROR jobaggregator.pipeline [liepin] 关键词「FP&A」抓取失败：ScraperError("[liepin] 打开页面或捕获接口失败：TargetClosedError('Page.goto: Target page, context or browser has been closed')")
+2026-10-14 23:37:50,187 WARNING jobaggregator.scrapers.liepin [liepin] 页面/接口第 1 次加载失败：TargetClosedError('Page.goto: Target page, context or browser has been closed')
+2026-10-14 23:37:50,188 WARNING jobaggregator.scrapers.liepin [liepin] 页面/接口第 2 次加载失败：TargetClosedError('Page.goto: Target page, context or browser has been closed')
+2026-10-14 23:37:50,189 WARNING jobaggregator.scrapers.liepin [liepin] 页面/接口第 3 次加载失败：TargetClosedError('Page.goto: Target page, context or browser has been closed')
+2026-10-14 23:37:50,189 ERROR jobaggregator.pipeline [liepin] 关键词「经营分析」抓取失败：ScraperError("[liepin] 打开页面或捕获接口失败：TargetClosedError('Page.goto: Target page, context or browser has been closed')")
+2026-10-14 23:37:50,191 WARNING jobaggregator.scrapers.liepin [liepin] 页面/接口第 1 次加载失败：TargetClosedError('Page.goto: Target page, context or browser has been closed')
+2026-10-14 23:37:50,192 WARNING jobaggregator.scrapers.liepin [liepin] 页面/接口第 2 次加载失败：TargetClosedError('Page.goto: Target page, context or browser has been closed')
+2026-10-14 23:37:50,193 WARNING jobaggregator.scrapers.liepin [liepin] 页面/接口第 3 次加载失败：TargetClosedError('Page.goto: Target page, context or browser has been closed')
+2026-10-14 23:37:50,193 ERROR jobaggregator.pipeline [liepin] 关键词「会计」抓取失败：ScraperError("[liepin] 打开页面或捕获接口失败：TargetClosedError('Page.goto: Target page, context or browser has been closed')")
+2026-10-14 23:37:50,194 WARNING jobaggregator.scrapers.liepin [liepin] 页面/接口第 1 次加载失败：TargetClosedError('Page.goto: Target page, context or browser has been closed')
+2026-10-14 23:37:50,195 WARNING jobaggregator.scrapers.liepin [liepin] 页面/接口第 2 次加载失败：TargetClosedError('Page.goto: Target page, context or browser has been closed')
+2026-10-14 23:37:50,196 WARNING jobaggregator.scrapers.liepin [liepin] 页面/接口第 3 次加载失败：TargetClosedError('Page.goto: Target page, context or browser has been closed')
+2026-10-14 23:37:50,196 ERROR jobaggregator.pipeline [liepin] 关键词「总账会计」抓取失败：ScraperError("[liepin] 打开页面或捕获接口失败：TargetClosedError('Page.goto: Target page, context or browser has been closed')")
+2026-10-14 23:37:50,198 WARNING jobaggregator.scrapers.liepin [liepin] 页面/接口第 1 次加载失败：TargetClosedError('Page.goto: Target page, context or browser has been closed')
+2026-10-14 23:37:50,199 WARNING jobaggregator.scrapers.liepin [liepin] 页面/接口第 2 次加载失败：TargetClosedError('Page.goto: Target page, context or browser has been closed')
+2026-10-14 23:37:50,200 WARNING jobaggregator.scrapers.liepin [liepin] 页面/接口第 3 次加载失败：TargetClosedError('Page.goto: Target page, context or browser has been closed')
+2026-10-14 23:37:50,200 ERROR jobaggregator.pipeline [liepin] 关键词「核算会计」抓取失败：ScraperError("[liepin] 打开页面或捕获接口失败：TargetClosedError('Page.goto: Target page, context or browser has been closed')")
+2026-10-14 23:37:50,202 WARNING jobaggregator.scrapers.liepin [liepin] 页面/接口第 1 次加载失败：TargetClosedError('Page.goto: Target page, context or browser has been closed')
+2026-10-14 23:37:50,202 WARNING jobaggregator.scrapers.liepin [liepin] 页面/接口第 2 次加载失败：TargetClosedError('Page.goto: Target page, context or browser has been closed')
+2026-10-14 23:37:50,203 WARNING jobaggregator.scrapers.liepin [liepin] 页面/接口第 3 次加载失败：TargetClosedError('Page.goto: Target page, context or browser has been closed')
+2026-10-14 23:37:50,203 ERROR jobaggregator.pipeline [liepin] 关键词「税务专员」抓取失败：ScraperError("[liepin] 打开页面或捕获接口失败：TargetClosedError('Page.goto: Target page, context or browser has been closed')")
+2026-10-14 23:37:50,206 WARNING jobaggregator.scrapers.liepin [liepin] 页面/接口第 1 次加载失败：TargetClosedError('Page.goto: Target page, context or browser has been closed')
+2026-10-14 23:37:50,206 WARNING jobaggregator.scrapers.liepin [liepin] 页面/接口第 2 次加载失败：TargetClosedError('Page.goto: Target page, context or browser has been closed')
+2026-10-14 23:37:50,208 WARNING jobaggregator.scrapers.liepin [liepin] 页面/接口第 3 次加载失败：TargetClosedError('Page.goto: Target page, context or browser has been closed')
+2026-10-14 23:37:50,208 ERROR jobaggregator.pipeline [liepin] 关键词「税务会计」抓取失败：ScraperError("[liepin] 打开页面或捕获接口失败：TargetClosedError('Page.goto: Target page, context or browser has been closed')")
+2026-10-14 23:37:50,210 WARNING jobaggregator.scrapers.liepin [liepin] 页面/接口第 1 次加载失败：TargetClosedError('Page.goto: Target page, context or browser has been closed')
+2026-10-14 23:37:50,211 WARNING jobaggregator.scrapers.liepin [liepin] 页面/接口第 2 次加载失败：TargetClosedError('Page.goto: Target page, context or browser has been closed')
+2026-10-14 23:37:50,214 WARNING jobaggregator.scrapers.liepin [liepin] 页面/接口第 3 次加载失败：TargetClosedError('Page.goto: Target page, context or browser has been closed')
+2026-10-14 23:37:50,214 ERROR jobaggregator.pipeline [liepin] 关键词「财务实习」抓取失败：ScraperError("[liepin] 打开页面或捕获接口失败：TargetClosedError('Page.goto: Target page, context or browser has been closed')")
+2026-10-14 23:37:50,215 WARNING jobaggregator.scrapers.liepin [liepin] 页面/接口第 1 次加载失败：TargetClosedError('Page.goto: Target page, context or browser has been closed')
+2026-10-14 23:37:50,217 WARNING jobaggregator.scrapers.liepin [liepin] 页面/接口第 2 次加载失败：TargetClosedError('Page.goto: Target page, context or browser has been closed')
+2026-10-14 23:37:50,217 WARNING jobaggregator.scrapers.liepin [liepin] 页面/接口第 3 次加载失败：TargetClosedError('Page.goto: Target page, context or browser has been closed')
+2026-10-14 23:37:50,217 ERROR jobaggregator.pipeline [liepin] 关键词「会计实习」抓取失败：ScraperError("[liepin] 打开页面或捕获接口失败：TargetClosedError('Page.goto: Target page, context or browser has been closed')")
+2026-10-14 23:37:50,219 WARNING jobaggregator.scrapers.liepin [liepin] 页面/接口第 1 次加载失败：TargetClosedError('Page.goto: Target page, context or browser has been closed')
+2026-10-14 23:37:50,219 WARNING jobaggregator.scrapers.liepin [liepin] 页面/接口第 2 次加载失败：TargetClosedError('Page.goto: Target page, context or browser has been closed')
+2026-10-14 23:37:50,221 WARNING jobaggregator.scrapers.liepin [liepin] 页面/接口第 3 次加载失败：TargetClosedError('Page.goto: Target page, context or browser has been closed')
+2026-10-14 23:37:50,221 ERROR jobaggregator.pipeline [liepin] 关键词「税务实习」抓取失败：ScraperError("[liepin] 打开页面或捕获接口失败：TargetClosedError('Page.goto: Target page, context or browser has been closed')")
+2026-10-14 23:37:50,222 WARNING jobaggregator.scrapers.liepin [liepin] 页面/接口第 1 次加载失败：TargetClosedError('Page.goto: Target page, context or browser has been closed')
+2026-10-14 23:37:50,224 WARNING jobaggregator.scrapers.liepin [liepin] 页面/接口第 2 次加载失败：TargetClosedError('Page.goto: Target page, context or browser has been closed')
+2026-10-14 23:37:50,224 WARNING jobaggregator.scrapers.liepin [liepin] 页面/接口第 3 次加载失败：TargetClosedError('Page.goto: Target page, context or browser has been closed')
+2026-10-14 23:37:50,224 ERROR jobaggregator.pipeline [liepin] 关键词「财务BP AI」抓取失败：ScraperError("[liepin] 打开页面或捕获接口失败：TargetClosedError('Page.goto: Target page, context or browser has been closed')")
+2026-10-14 23:37:50,226 WARNING jobaggregator.scrapers.liepin [liepin] 页面/接口第 1 次加载失败：TargetClosedError('Page.goto: Target page, context or browser has been closed')
+2026-10-14 23:37:50,227 WARNING jobaggregator.scrapers.liepin [liepin] 页面/接口第 2 次加载失败：TargetClosedError('Page.goto: Target page, context or browser has been closed')
+2026-10-14 23:37:50,228 WARNING jobaggregator.scrapers.liepin [liepin] 页面/接口第 3 次加载失败：TargetClosedError('Page.goto: Target page, context or browser has been closed')
+2026-10-14 23:37:50,228 ERROR jobaggregator.pipeline [liepin] 关键词「智能财务」抓取失败：ScraperError("[liepin] 打开页面或捕获接口失败：TargetClosedError('Page.goto: Target page, context or browser has been closed')")
+2026-10-14 23:37:51,869 ERROR jobaggregator.pipeline [job51] 关键词「财务分析」抓取失败：JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2026-10-14 23:37:52,989 INFO jobaggregator.pipeline [job51] 财务分析/FP&A / FP&A：20 条（新 20，更新 0）
+2026-10-14 23:37:59,760 INFO jobaggregator.pipeline [job51] 财务分析/FP&A / 经营分析：20 条（新 19，更新 1）
+2026-10-14 23:38:05,247 INFO jobaggregator.pipeline [job51] 会计/核算 / 会计：20 条（新 0，更新 20）
+2026-10-14 23:38:12,701 INFO jobaggregator.pipeline [job51] 会计/核算 / 总账会计：20 条（新 17，更新 3）
+2026-10-14 23:38:18,542 INFO jobaggregator.pipeline [job51] 会计/核算 / 核算会计：20 条（新 14，更新 6）
+2026-10-14 23:38:24,160 INFO jobaggregator.pipeline [job51] 税务方向 / 税务专员：20 条（新 0，更新 20）
+2026-10-14 23:38:29,822 INFO jobaggregator.pipeline [job51] 税务方向 / 税务会计：20 条（新 13，更新 7）
+2026-10-14 23:38:35,721 INFO jobaggregator.pipeline [job51] 实习/校招 / 财务实习：20 条（新 4，更新 16）
+2026-10-14 23:38:41,370 INFO jobaggregator.pipeline [job51] 实习/校招 / 会计实习：20 条（新 6，更新 14）
+2026-10-14 23:38:48,265 INFO jobaggregator.pipeline [job51] 实习/校招 / 税务实习：20 条（新 3，更新 17）
+2026-10-14 23:38:55,441 INFO jobaggregator.pipeline [job51] AI财务/AI应用 / 财务BP AI：20 条（新 0，更新 20）
+2026-10-14 23:39:03,021 INFO jobaggregator.pipeline [job51] AI财务/AI应用 / 智能财务：20 条（新 20，更新 0）
+2026-10-14 23:39:10,359 INFO jobaggregator.pipeline [zhaopin] 财务分析/FP&A / 财务分析：20 条（新 10，更新 10）
+2026-10-14 23:39:17,820 INFO jobaggregator.pipeline [zhaopin] 财务分析/FP&A / FP&A：20 条（新 20，更新 0）
+2026-10-14 23:39:22,854 INFO jobaggregator.pipeline [zhaopin] 财务分析/FP&A / 经营分析：20 条（新 13，更新 7）
+2026-10-14 23:39:30,038 INFO jobaggregator.pipeline [zhaopin] 会计/核算 / 会计：20 条（新 3，更新 17）
+2026-10-14 23:39:36,425 INFO jobaggregator.pipeline [zhaopin] 会计/核算 / 总账会计：20 条（新 13，更新 7）
+2026-10-14 23:39:43,838 INFO jobaggregator.pipeline [zhaopin] 会计/核算 / 核算会计：20 条（新 2，更新 18）
+2026-10-14 23:39:52,712 INFO jobaggregator.pipeline [zhaopin] 税务方向 / 税务专员：20 条（新 0，更新 20）
+2026-10-14 23:39:58,000 INFO jobaggregator.pipeline [zhaopin] 税务方向 / 税务会计：20 条（新 5，更新 15）
+2026-10-14 23:40:04,552 INFO jobaggregator.pipeline [zhaopin] 实习/校招 / 财务实习：20 条（新 0，更新 20）
+2026-10-14 23:40:10,824 INFO jobaggregator.pipeline [zhaopin] 实习/校招 / 会计实习：20 条（新 9，更新 11）
+2026-10-14 23:40:18,600 INFO jobaggregator.pipeline [zhaopin] 实习/校招 / 税务实习：20 条（新 9，更新 11）
+2026-10-14 23:40:24,083 INFO jobaggregator.pipeline [zhaopin] AI财务/AI应用 / 财务BP AI：4 条（新 0，更新 4）
+2026-10-14 23:40:29,090 INFO jobaggregator.pipeline [zhaopin] AI财务/AI应用 / 智能财务：20 条（新 18，更新 2）
+2026-10-14 23:40:36,011 INFO jobaggregator.browser 附加到已在运行的真实 Chrome（端口 9333）
+2026-10-14 23:40:37,814 INFO jobaggregator.pipeline [zhipin] 财务分析/FP&A / 财务分析：15 条（新 2，更新 13）
+2026-10-14 23:40:46,137 INFO jobaggregator.pipeline [zhipin] 财务分析/FP&A / FP&A：0 条（新 0，更新 0）
+2026-10-14 23:40:51,863 INFO jobaggregator.pipeline [zhipin] 财务分析/FP&A / 经营分析：15 条（新 13，更新 2）
+2026-10-14 23:40:59,503 INFO jobaggregator.pipeline [zhipin] 会计/核算 / 会计：15 条（新 3，更新 12）
+2026-10-14 23:41:08,384 INFO jobaggregator.pipeline [zhipin] 会计/核算 / 总账会计：15 条（新 12，更新 3）
+2026-10-14 23:41:17,847 INFO jobaggregator.pipeline [zhipin] 会计/核算 / 核算会计：15 条（新 12，更新 3）
+2026-10-14 23:41:24,664 INFO jobaggregator.pipeline [zhipin] 税务方向 / 税务专员：15 条（新 1，更新 14）
+2026-10-14 23:41:32,203 INFO jobaggregator.pipeline [zhipin] 税务方向 / 税务会计：15 条（新 14，更新 1）
+2026-10-14 23:41:39,479 INFO jobaggregator.pipeline [zhipin] 实习/校招 / 财务实习：15 条（新 0，更新 15）
+2026-10-14 23:41:47,458 INFO jobaggregator.pipeline [zhipin] 实习/校招 / 会计实习：15 条（新 8，更新 7）
+2026-10-14 23:41:56,225 INFO jobaggregator.pipeline [zhipin] 实习/校招 / 税务实习：15 条（新 15，更新 0）
+2026-10-14 23:42:01,631 INFO jobaggregator.pipeline [zhipin] AI财务/AI应用 / 财务BP AI：15 条（新 1，更新 14）
+2026-10-14 23:42:08,762 INFO jobaggregator.pipeline [zhipin] AI财务/AI应用 / 智能财务：15 条（新 15，更新 0）

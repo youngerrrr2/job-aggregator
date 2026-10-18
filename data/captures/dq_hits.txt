@@ -1,0 +1,50 @@
+--- https://api-c.liepin.com/api/com.liepin.searchfront4c.pc-search-job-cond-init ---
+ame":"全国"},{"code":"010","name":"北京"},{"code":"020","name":"上海"},{"code":"030","name":"天津"},{"code":"040","name":"重庆"},{"c
+
+--- https://api-c.liepin.com/api/com.liepin.searchfront4c.pc-search-job ---
+人","compLogo":"5bfea1ec74719d2aa34c40e203a.png","compName":"上海同泰火安科技有限公司","link":"https://www.liepin.com/company/8181417/"
+
+--- https://api-c.liepin.com/api/com.liepin.searchfront4c.pc-search-job ---
+Logo":"5bfffae374719da073f0f80703u.png","compName":"赛纽仕医药咨询(上海)有限公司","link":"https://www.liepin.com/company/8189182/","com
+
+--- https://api-c.liepin.com/api/com.liepin.searchfront4c.pc-search-job ---
+go":"619b1779c30262243b92c90708u.png","compName":"亚萨合莱自动门系统(上海)有限公司","link":"https://www.liepin.com/company/13003429/","co
+
+--- https://api-c.liepin.com/api/com.liepin.searchfront4c.pc-search-job ---
+":{"labels":[],"g":"c8n6tbajjnfam8494sr6fcdo2y1hrhax","dq":"上海-长宁区","requireWorkYears":"5-10年","requireEduLevel":"本科","j":
+
+--- https://api-c.liepin.com/api/com.liepin.searchfront4c.pc-search-job ---
+人","compLogo":"69d5f1791d543f2b8916016e02u.png","compName":"上海宏维真空技术有限公司","link":"https://www.liepin.com/company/21420489/
+
+--- https://api-c.liepin.com/api/com.liepin.searchfront4c.pc-search-job ---
+人","compLogo":"69d5f1791d543f2b8916016e02u.png","compName":"上海宏维真空技术有限公司","link":"https://www.liepin.com/company/21420489/
+
+--- https://api-c.liepin.com/api/com.liepin.searchfront4c.pc-search-job ---
+":{"labels":[],"g":"4zhwjmoe2cykveikzblbd630nklevafg","dq":"上海","requireWorkYears":"5-10年","requireEduLevel":"统招本科","j":"4
+
+--- https://api-c.liepin.com/api/com.liepin.searchfront4c.pc-search-job ---
+Logo":"634cf7b35f9dbd49324c2cbf06u.png","compName":"健美生保健产品(上海)有限公司","link":"https://www.liepin.com/company/13326279/","co
+
+--- https://api-c.liepin.com/api/com.liepin.searchfront4c.pc-search-job ---
+上","compLogo":"5ca6b45c87fd7dc0d3613aa906u.png","compName":"上海西门子医疗器械有限公司","link":"https://www.liepin.com/company/9955157/
+
+--- https://api-c.liepin.com/api/com.liepin.searchfront4c.pc-search-job ---
+开","compLogo":"69a50470914d2b7b4d01ff7101u.png","compName":"上海歌地催化剂有限公司","link":"https://www.liepin.com/company/8166263/",
+
+--- https://api-c.liepin.com/api/com.liepin.searchfront4c.pc-search-job ---
+":{"labels":[],"g":"ezvoowc3mmnimy1xxfa421jd5wxwpppn","dq":"上海-浦东新区","requireWorkYears":"10年以上","requireEduLevel":"统招本科","
+
+--- https://api-c.liepin.com/api/com.liepin.searchfront4c.pc-search-job ---
+":{"labels":[],"g":"aomtfpeo05gqici8nmq7hit9u589yiw6","dq":"上海-静安区","requireWorkYears":"3-5年","requireEduLevel":"本科","j":"
+
+--- https://api-c.liepin.com/api/com.liepin.searchfront4c.pc-search-job ---
+:"61b07937d0458d53c627567e02u.jpg","compName":"营口风光新材料股份有限公司上海分公司","link":"https://www.liepin.com/company/21479467/","comp
+
+--- https://api-c.liepin.com/api/com.liepin.searchfront4c.pc-search-job ---
+轮","compLogo":"622c510bd416f75852a7054204u.png","compName":"上海友道智途科技有限公司","link":"https://www.liepin.com/company/13130971/
+
+--- https://api-dok.liepin.com/api/com.liepin.bd.p.v4.get-all-dq?part=part_1,country,province&sc=0&from= ---
+0490","a":"0","c":"020","en":"Shanghai","l":"3","ca":2,"n":"上海"},"120":{"p":"350490","a":"0","c":"120","en":"Guizhou","l":
+
+--- https://api-dok.liepin.com/api/com.liepin.bd.p.v4.get-all-dq?part=part_1,country,province&sc=0&from= ---
+0490","a":"0","c":"020","en":"Shanghai","l":"3","ca":2,"n":"上海"},"420010030":{"p":"420010","a":"2","c":"420010030","en":"H
