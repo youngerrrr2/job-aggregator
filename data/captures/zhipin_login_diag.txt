@@ -1,15 +1,7 @@
-url=https://www.zhipin.com/web/geek/jobs?_security_check=1_1791991406875
-title=「上海招聘」-2026年上海人才招聘信息 - BOSS直聘
-html_len=243717
-head=<!DOCTYPE html><html class="standard"><!--<![endif]--><head>
+url=https://www.zhipin.com/
+title=BOSS直聘-找工作BOSS直聘直接谈！招聘求职找工作！
+html_len=988858
+head=<!DOCTYPE html><html class="standard grayBody"><!--<![endif]--><head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    
-    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
-    <meta http-equiv="Pragma" content="no-cache">
-    <meta http-equiv="Expires" content="0">
-    <title>「上海招聘」-2026年上海人才招聘信息 - BOSS直聘</title>
-
-    <script src="https://static.zhipin.com/assets/sdk/ka/ka.v1.min.js"></script><script src="https://img.bosszhipin.com/static/zhipin/geek/sdk/browser-check-v2.js" crossorigin="anonymous" async=""></script>
-    
-
+    <title>BOSS直聘-找工作BOSS直聘直接谈！招聘求职找工作！</title>
+<script crossorigin="Anonymous" src="https://static.zhipin.com/assets/sdk/ka/ka.v1.min.js?v=20251218"></script><script src="//hm.baidu.com/hm.js?194df3105ad7148dcf2b98a91b5e727a"></script><script src="https://static.zhipin.com/assets/sdk/apm/patas.2.3.0.m

@@ -76,3 +76,5 @@
 2026-10-18 09:48:24,220 INFO jobaggregator.pipeline [zhaopin] AI财务/AI应用 / 智能财务：20 条（新 6，更新 14）
 2026-10-18 09:48:32,187 INFO jobaggregator.browser 真实 Chrome 已启动（独立目录，端口 9333）
 2026-10-18 09:48:34,224 WARNING jobaggregator.pipeline [zhipin] 登录态失效：BOSS 登录态失效或触发安全验证：请运行 scripts/login_zhipin.py 重新登录（跳过该平台剩余关键词）
+2026-10-18 19:11:01,506 INFO jobaggregator.browser 浏览器引擎就绪（channel=chrome, headless=False）
+2026-10-18 19:11:01,579 WARNING jobaggregator 已有抓取任务进行中（C:\Users\yg\job-aggregator\data\fetch.lock 存在），本次退出

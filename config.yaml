@@ -29,4 +29,4 @@ fetch:
 
 ui:
   default_fresh_days: 14
-  page_size: 100
+  page_size: 30

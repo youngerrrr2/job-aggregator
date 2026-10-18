@@ -1,2 +1,3 @@
-2026/10/15-09:48:17.012 8678 Creating DB C:\Users\yg\job-aggregator\data\browser_profile_chrome\Default\Session Storage since it was missing.
-2026/10/15-09:48:17.040 8678 Reusing MANIFEST C:\Users\yg\job-aggregator\data\browser_profile_chrome\Default\Session Storage/MANIFEST-000001
+2026/10/18-09:48:32.356 3af0 Reusing MANIFEST C:\Users\yg\job-aggregator\data\browser_profile_chrome\Default\Session Storage/MANIFEST-000001
+2026/10/18-09:48:32.357 3af0 Recovering log #3
+2026/10/18-09:48:32.359 3af0 Reusing old log C:\Users\yg\job-aggregator\data\browser_profile_chrome\Default\Session Storage/000003.log 
